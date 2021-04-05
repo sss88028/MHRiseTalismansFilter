@@ -11,11 +11,13 @@ namespace MHRiseTalismansFilter
 	public class Skill
 	{
 		#region public-field
+		public readonly int Id;
 		public readonly int? Size;
 		public readonly int MaxLevel;
 		#endregion public-field
 
 		#region private-field
+		private static int _serialId = 0;
 		private Dictionary<string, string> _nameDict = new Dictionary<string, string>();
 		#endregion private-field
 
@@ -37,13 +39,24 @@ namespace MHRiseTalismansFilter
 		#region public-method
 		public Skill(JObject jObj) 
 		{
-			if (jObj.TryGetValue("size", out var value))
+			Id = _serialId++;
+
+			if (jObj.TryGetValue("size", out var sizeValue))
 			{
-				Size = value.Value<int>();
+				Size = sizeValue.Value<int>();
 			}
 			else 
 			{
 				Size = null;
+			}
+
+			if (jObj.TryGetValue("maxlevel", out var levelValue))
+			{
+				MaxLevel = levelValue.Value<int>();
+			}
+			else
+			{
+				MaxLevel = 0;
 			}
 
 			if (jObj.TryGetValue("name", out var nameArray))
@@ -53,7 +66,10 @@ namespace MHRiseTalismansFilter
 				{
 					foreach (JProperty prop in content.Properties())
 					{
-						_nameDict.Add(prop.Name, prop.Value.ToString());
+						var languageType = prop.Name;
+						var name = prop.Value.ToString();
+						SettingSystem.Instance.AddLanguageType(languageType);
+						_nameDict.Add(languageType, name);
 					}
 				}
 			}

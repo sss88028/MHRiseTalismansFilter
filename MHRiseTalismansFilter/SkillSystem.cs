@@ -8,14 +8,14 @@ namespace MHRiseTalismansFilter
 {
 	class SkillSystem : Singleton<SkillSystem>
 	{
-		#region private-field
-		private List<Skill> _skillList = new List<Skill>();
-		#endregion private-field
+		#region public-field
+		public List<Skill> SkillList = new List<Skill>();
+		#endregion public-field
 
 		#region public-method
 		public void AddSkill(Skill skill) 
 		{
-			_skillList.Add(skill);
+			SkillList.Add(skill);
 		}
 		#endregion public-method
 	}
