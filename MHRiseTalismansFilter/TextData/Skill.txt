@@ -1,6 +1,6 @@
 [ 
     { 
-		"maxlevel" : "0",
+		"maxlevel" : 0,
 		"name": 
 		[
 			{
@@ -9,8 +9,8 @@
 		] 
 	}, 
     { 
-		"size": "2", 
-		"maxlevel" : "3",
+		"size": 2, 
+		"maxlevel" : 3,
 		"name": 
 		[
 			{
@@ -19,8 +19,8 @@
 		] 
 	}, 
     { 
-		"size": "2", 
-		"maxlevel" : "5",
+		"size": 2, 
+		"maxlevel" : 5,
 		"name": 
 		[
 			{
@@ -29,8 +29,8 @@
 		] 
 	}, 
     { 
-		"size": "1", 
-		"maxlevel" : "6",
+		"size": 1, 
+		"maxlevel" : 6,
 		"name": 
 		[
 			{
@@ -39,8 +39,8 @@
 		] 
 	}, 
     { 
-		"size": "2",
-		"maxlevel" : "3", 
+		"size": 2,
+		"maxlevel" : 3, 
 		"name": 
 		[
 			{
@@ -49,8 +49,8 @@
 		] 
 	}, 
     { 
-		"size": "2", 
-		"maxlevel" : "3", 
+		"size": 2, 
+		"maxlevel" : 3, 
 		"name": 
 		[
 			{

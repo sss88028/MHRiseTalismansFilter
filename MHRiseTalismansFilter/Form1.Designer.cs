@@ -38,7 +38,7 @@ namespace MHRiseTalismansFilter
 			this.label1 = new System.Windows.Forms.Label();
 			this._slot2 = new System.Windows.Forms.ComboBox();
 			this._slot3 = new System.Windows.Forms.ComboBox();
-			this.comboBox8 = new System.Windows.Forms.ComboBox();
+			this._nameComboBox = new System.Windows.Forms.ComboBox();
 			this.colorDialog1 = new System.Windows.Forms.ColorDialog();
 			this._decorationView = new System.Windows.Forms.ListView();
 			this.SuspendLayout();
@@ -127,14 +127,14 @@ namespace MHRiseTalismansFilter
 			this._slot3.Size = new System.Drawing.Size(39, 20);
 			this._slot3.TabIndex = 10;
 			// 
-			// comboBox8
+			// _nameComboBox
 			// 
-			this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox8.FormattingEnabled = true;
-			this.comboBox8.Location = new System.Drawing.Point(12, 12);
-			this.comboBox8.Name = "comboBox8";
-			this.comboBox8.Size = new System.Drawing.Size(121, 20);
-			this.comboBox8.TabIndex = 11;
+			this._nameComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._nameComboBox.FormattingEnabled = true;
+			this._nameComboBox.Location = new System.Drawing.Point(12, 12);
+			this._nameComboBox.Name = "_nameComboBox";
+			this._nameComboBox.Size = new System.Drawing.Size(121, 20);
+			this._nameComboBox.TabIndex = 11;
 			// 
 			// _decorationView
 			// 
@@ -151,7 +151,7 @@ namespace MHRiseTalismansFilter
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this._decorationView);
-			this.Controls.Add(this.comboBox8);
+			this.Controls.Add(this._nameComboBox);
 			this.Controls.Add(this._slot3);
 			this.Controls.Add(this._slot2);
 			this.Controls.Add(this.label1);
@@ -180,7 +180,7 @@ namespace MHRiseTalismansFilter
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.ComboBox _slot2;
 		private System.Windows.Forms.ComboBox _slot3;
-		private System.Windows.Forms.ComboBox comboBox8;
+		private System.Windows.Forms.ComboBox _nameComboBox;
 		private System.Windows.Forms.ColorDialog colorDialog1;
 		private System.Windows.Forms.ListView _decorationView;
 	}

@@ -6,39 +6,58 @@ using System.Threading.Tasks;
 
 namespace MHRiseTalismansFilter
 {
-	class DecorationSystem
+	class DecorationSystem : Singleton<DecorationSystem>
 	{
 		#region private-field
 		private List<Decoration> _decorations = new List<Decoration>();
-		private Dictionary<int, List<Decoration>> _skill_1_Dict = new Dictionary<int, List<Decoration>>();
-		private Dictionary<int, List<Decoration>> _skill_2_Dict = new Dictionary<int, List<Decoration>>();
 		#endregion private-field
 
 		#region public-method
 		public void AddDecoration(Decoration decoration) 
 		{
 			_decorations.Add(decoration);
+		}
 
-			var skill_1_Id = decoration.Skills[0].Id;
+		public void RemoveDecoration(Decoration decoration)
+		{
+			_decorations.Remove(decoration);
+		}
+
+		public void Filt() 
+		{
+			var size = _decorations.Count;
+
+			var set = new int[size];
+			for (var i = 0; i < size; i++)
 			{
-				if (!_skill_1_Dict.TryGetValue(skill_1_Id, out var list))
-				{
-					list = new List<Decoration>();
-					_skill_1_Dict[skill_1_Id] = list;
-				}
-				list.Add(decoration);
+				set[i] = -1;
 			}
 
-			var skill_2_Id = decoration.Skills[1].Id;
+			for (var i = 0; i < size; i++)
 			{
-				if (!_skill_2_Dict.TryGetValue(skill_2_Id, out var list))
+				for (var j = i + 1; j < size; j++)
 				{
-					list = new List<Decoration>();
-					_skill_2_Dict[skill_2_Id] = list;
+					var d1 = _decorations[i];
+					var d2 = _decorations[j];
+
+					if (d1.CompareTo(d2) > 0)
+					{
+						Combine(set, i, j);
+					}
+					else if (d1.CompareTo(d2) < 0)
+					{
+						Combine(set, j, i);
+					}
 				}
-				list.Add(decoration);
 			}
 		}
 		#endregion public-method
+
+		#region private-method
+		private void Combine(int[] set, int a, int b) 
+		{ 
+		
+		}
+		#endregion private-method
 	}
 }

@@ -17,6 +17,7 @@ namespace MHRiseTalismansFilter
 	{
 		#region private-field
 		private const string _skillDataPath = @".\TextData\Skill.txt";
+		private const string _nameDataPath = @".\TextData\Name.txt";
 
 		private List<int> _skill_1_LevelList = new List<int>();
 		private List<int> _skill_2_LevelList = new List<int>();
@@ -40,6 +41,7 @@ namespace MHRiseTalismansFilter
 			InitSkillComboBox();
 			InitSlotComboBox();
 			InitViewList();
+			InitName();
 		}
 
 		private void InitSkill() 
@@ -52,7 +54,7 @@ namespace MHRiseTalismansFilter
 					var skills = (JArray)JToken.ReadFrom(reader);
 					foreach (var skill in skills) 
 					{
-						SkillSystem.Instance.AddSkill(new Skill((JObject)skill));
+						Skill.AddSkill((JObject)skill);
 					}
 				}
 			}
@@ -68,18 +70,22 @@ namespace MHRiseTalismansFilter
 			_skill_1_LevelComboBox.DataSource = _skill_1_LevelList;
 			_skill_2_LevelComboBox.DataSource = _skill_2_LevelList;
 
-			var skill1List = new List<Skill>(SkillSystem.Instance.SkillList);
-			var skill2List = new List<Skill>(SkillSystem.Instance.SkillList);
+			_skill_2_ComboBox.Format += SkillComboBoxFormat;
+			_skill_2_ComboBox.DataSource = new BindingSource(Skill.SkillDict, null);
+			_skill_2_ComboBox.ValueMember = "Key";
 
-			_skill_2_ComboBox.DataSource = skill2List;
-			_skill_2_ComboBox.DisplayMember = "Name";
-			_skill_2_ComboBox.ValueMember = "Name";
-
-			_skill_1_ComboBox.DataSource = skill1List;
-			_skill_1_ComboBox.DisplayMember = "Name";
-			_skill_1_ComboBox.ValueMember = "Name";
+			_skill_1_ComboBox.Format += SkillComboBoxFormat;
+			_skill_1_ComboBox.DataSource = new BindingSource(Skill.SkillDict, null);
+			_skill_1_ComboBox.ValueMember = "Key";
 
 			OnSkill1SelectedHandler();
+		}
+
+		private void SkillComboBoxFormat(object sender, ListControlConvertEventArgs e)
+		{
+			var pair = (KeyValuePair<int, Skill>)e.ListItem;
+			string Name = pair.Value.Name;
+			e.Value = Name;
 		}
 
 		private void InitSlotComboBox()
@@ -101,19 +107,85 @@ namespace MHRiseTalismansFilter
 			_decorationView.GridLines = true;
 			_decorationView.LabelEdit = false;
 			_decorationView.FullRowSelect = true;
-			_decorationView.Columns.Add("name");
-			_decorationView.Columns.Add("test1");
-			_decorationView.Columns.Add("test2");
+			_decorationView.Columns.Add("名稱");
+			_decorationView.Columns.Add("技能");
+			_decorationView.Columns.Add("LV");
+			_decorationView.Columns.Add("技能");
+			_decorationView.Columns.Add("LV");
+			_decorationView.Columns.Add("Slot");
+			_decorationView.Columns.Add("");
+			_decorationView.DrawSubItem += ViewListDrawSubItem;
 
-			var d = new Decoration();
-			d.Name = "123";
-			_decorationView.Items.Add(d.Item);
+			//var d = new Decoration();
+			//d.Name = "123";
+			//_decorationView.Items.Add(d.Item);
+		}
+
+		private void InitName()
+		{
+			var nameList = new List<string>();
+			using (var stream = new StreamReader(_nameDataPath))
+			{
+				var json = stream.ReadToEnd();
+				using (var reader = new JsonTextReader(new StringReader(json)))
+				{
+					var names = (JArray)JToken.ReadFrom(reader);
+					foreach (var name in names)
+					{
+						var rare = string.Empty;
+						var n = string.Empty;
+						var jObj = (JObject)name;
+						if (jObj.TryGetValue("rare", out var rareValue))
+						{
+							rare = $"R{rareValue.Value<int>()}";
+						}
+
+						if (jObj.TryGetValue("name", out var nameArray))
+						{
+							var array = (JArray)nameArray;
+							foreach (JObject content in array.Children<JObject>())
+							{
+								var prop = content.Properties().First();
+								n = prop.Value.ToString();
+							}
+						}
+						nameList.Add($"{rare}-{n}");
+					}
+				}
+			}
+
+			_nameComboBox.DataSource = new BindingSource(nameList, null);
+		}
+
+		private void ViewListDrawSubItem(object sender, DrawListViewSubItemEventArgs e) 
+		{
+			e.DrawDefault = true;
+		}
+
+		private void ViewListPaint(object sender, PaintEventArgs e)
+		{
 		}
 
 		#region UIEvent-method
 		private void AddButton_Click(object sender, EventArgs e)
 		{
+			var decoration = new Decoration();
 
+			var name = (string)_nameComboBox.SelectedItem;
+			decoration.Name = name;
+
+			AddSkill(decoration, _skill_1_ComboBox, _skill_1_LevelComboBox);
+			AddSkill(decoration, _skill_2_ComboBox, _skill_2_LevelComboBox);
+
+			_decorationView.Items.Add(decoration);
+			decoration.Item.SetView(_decorationView);
+		}
+
+		private void AddSkill(Decoration decoration, ComboBox skillComboBox, ComboBox skillLevelComboBox) 
+		{ 
+			var skillId = ((KeyValuePair<int, Skill>)skillComboBox.SelectedItem).Key;
+			var levelId = (int)skillLevelComboBox.SelectedItem;
+			decoration.AddSkill(skillId, levelId);
 		}
 
 		private void Skill1ComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -132,9 +204,9 @@ namespace MHRiseTalismansFilter
 			_skill_2_ComboBox.Enabled = isSkill1Selected;
 			_skill_1_LevelComboBox.Enabled = isSkill1Selected;
 
-			var skill = (Skill)_skill_1_ComboBox.SelectedItem;
-
-			var oldValue = (int)_skill_1_LevelComboBox.SelectedItem;
+			var pair = (KeyValuePair<int, Skill>)_skill_1_ComboBox.SelectedItem;
+			var skill = pair.Value;
+			var oldLevel = (int)_skill_1_LevelComboBox.SelectedItem;
 
 			_skill_1_LevelComboBox.DataSource = null;
 			_skill_1_LevelList.Clear();
@@ -144,7 +216,7 @@ namespace MHRiseTalismansFilter
 			}
 			_skill_1_LevelComboBox.DataSource = _skill_1_LevelList;
 
-			_skill_1_LevelComboBox.SelectedItem = Math.Min(oldValue, skill.MaxLevel);
+			_skill_1_LevelComboBox.SelectedItem = Math.Min(oldLevel, skill.MaxLevel);
 		}
 
 		private void Skill2ComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -157,7 +229,8 @@ namespace MHRiseTalismansFilter
 			var isSkill2Selected = _skill_2_ComboBox.SelectedIndex > 0;
 			_skill_2_LevelComboBox.Enabled = isSkill2Selected;
 
-			var skill = (Skill)_skill_2_ComboBox.SelectedItem;
+			var pair = (KeyValuePair<int, Skill>)_skill_2_ComboBox.SelectedItem;
+			var skill = pair.Value;
 
 			var oldValue = (int)_skill_2_LevelComboBox.SelectedItem;
 
