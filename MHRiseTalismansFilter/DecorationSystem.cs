@@ -37,16 +37,22 @@ namespace MHRiseTalismansFilter
 			{
 				for (var j = i + 1; j < size; j++)
 				{
-					var d1 = _decorations[i];
-					var d2 = _decorations[j];
+					var a = GetParent(set, i);
+					var b = GetParent(set, j);
 
-					if (d1.CompareTo(d2) > 0)
+					var d1 = _decorations[a];
+					var d2 = _decorations[b];
+
+					var result = d1.CompareTo(d2);
+					if (result > 0)
 					{
 						Combine(set, i, j);
+						Combine(set, a, b);
 					}
-					else if (d1.CompareTo(d2) < 0)
+					else if (result < 0)
 					{
 						Combine(set, j, i);
+						Combine(set, b, a);
 					}
 				}
 			}
@@ -54,9 +60,26 @@ namespace MHRiseTalismansFilter
 		#endregion public-method
 
 		#region private-method
-		private void Combine(int[] set, int a, int b) 
-		{ 
-		
+		private void Combine(int[] set, int parent, int child) 
+		{
+			var parentsParent = GetParent(set, parent);
+			var childsParent = GetParent(set, child);
+			if (parentsParent >= 0 && childsParent >= 0 && parentsParent == childsParent) 
+			{
+				return;
+			}
+			set[child] = parentsParent;
+		}
+
+		private int GetParent(int[] set, int child)
+		{
+			var parent = set[child];
+			while (parent >= 0)
+			{
+				child = parent;
+				parent = set[child];
+			}
+			return child;
 		}
 		#endregion private-method
 	}

@@ -41,6 +41,9 @@ namespace MHRiseTalismansFilter
 			this._nameComboBox = new System.Windows.Forms.ComboBox();
 			this.colorDialog1 = new System.Windows.Forms.ColorDialog();
 			this._decorationView = new System.Windows.Forms.ListView();
+			this._filtButton = new System.Windows.Forms.Button();
+			this._saveButton = new System.Windows.Forms.Button();
+			this._loadButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// _skill_1_ComboBox
@@ -145,11 +148,42 @@ namespace MHRiseTalismansFilter
 			this._decorationView.TabIndex = 12;
 			this._decorationView.UseCompatibleStateImageBehavior = false;
 			// 
+			// _filtButton
+			// 
+			this._filtButton.Location = new System.Drawing.Point(698, 398);
+			this._filtButton.Name = "_filtButton";
+			this._filtButton.Size = new System.Drawing.Size(75, 23);
+			this._filtButton.TabIndex = 13;
+			this._filtButton.Text = "Filt";
+			this._filtButton.UseVisualStyleBackColor = true;
+			this._filtButton.Click += new System.EventHandler(this.OnClickFiltButton);
+			// 
+			// _saveButton
+			// 
+			this._saveButton.Location = new System.Drawing.Point(698, 48);
+			this._saveButton.Name = "_saveButton";
+			this._saveButton.Size = new System.Drawing.Size(75, 23);
+			this._saveButton.TabIndex = 14;
+			this._saveButton.Text = "Save";
+			this._saveButton.UseVisualStyleBackColor = true;
+			// 
+			// _loadButton
+			// 
+			this._loadButton.Location = new System.Drawing.Point(698, 77);
+			this._loadButton.Name = "_loadButton";
+			this._loadButton.Size = new System.Drawing.Size(75, 23);
+			this._loadButton.TabIndex = 15;
+			this._loadButton.Text = "Load";
+			this._loadButton.UseVisualStyleBackColor = true;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this._loadButton);
+			this.Controls.Add(this._saveButton);
+			this.Controls.Add(this._filtButton);
 			this.Controls.Add(this._decorationView);
 			this.Controls.Add(this._nameComboBox);
 			this.Controls.Add(this._slot3);
@@ -183,6 +217,9 @@ namespace MHRiseTalismansFilter
 		private System.Windows.Forms.ComboBox _nameComboBox;
 		private System.Windows.Forms.ColorDialog colorDialog1;
 		private System.Windows.Forms.ListView _decorationView;
+		private System.Windows.Forms.Button _filtButton;
+		private System.Windows.Forms.Button _saveButton;
+		private System.Windows.Forms.Button _loadButton;
 	}
 }
 

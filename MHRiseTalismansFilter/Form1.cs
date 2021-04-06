@@ -186,6 +186,12 @@ namespace MHRiseTalismansFilter
 			var skillId = ((KeyValuePair<int, Skill>)skillComboBox.SelectedItem).Key;
 			var levelId = (int)skillLevelComboBox.SelectedItem;
 			decoration.AddSkill(skillId, levelId);
+			decoration.SetSlot(new int[] 
+			{
+				(int)_slot1.SelectedItem,
+				(int)_slot2.SelectedItem,
+				(int)_slot3.SelectedItem,
+			});
 		}
 
 		private void Skill1ComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -246,6 +252,11 @@ namespace MHRiseTalismansFilter
 		}
 		#endregion UIEvent-method
 
+		private void OnClickFiltButton(object sender, EventArgs e)
+		{
+			DecorationSystem.Instance.Filt();
+		}
 		#endregion private-field
+
 	}
 }
