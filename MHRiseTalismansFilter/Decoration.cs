@@ -101,6 +101,10 @@ namespace MHRiseTalismansFilter
 
 			foreach (var slot in _slots)
 			{
+				if (slot == 0) 
+				{
+					continue;
+				}
 				if (!_slotCompareDict.ContainsKey(slot)) 
 				{
 					_slotCompareDict[slot] = 0;
@@ -123,6 +127,10 @@ namespace MHRiseTalismansFilter
 
 			foreach (var slot in other._slots)
 			{
+				if (slot == 0)
+				{
+					continue;
+				}
 				if (!_slotCompareDict.ContainsKey(slot))
 				{
 					_slotCompareDict[slot] = 0;
@@ -179,14 +187,7 @@ namespace MHRiseTalismansFilter
 
 			if (!isBigger && !isSmaller)
 			{
-				if (isSlotUnbalance)
-				{
-					result = 0;
-				}
-				else 
-				{
-					result = 1;
-				}
+				result = CompareSlot(other, isSlotUnbalance);
 			}
 			else if (isBigger && !isSmaller)
 			{
@@ -198,9 +199,59 @@ namespace MHRiseTalismansFilter
 			}
 			else if (isBigger && isSmaller)
 			{
-				result = 0;
+				result = CompareSlot(other, isSlotUnbalance);
 			}
 
+			return result;
+		}
+
+		private int CompareSlot(Decoration other, bool isSlotUnbalance)
+		{
+			var result = 0;
+			if (isSlotUnbalance)
+			{
+				_slotCompareDict.Clear();
+
+				for (var i = 1; i <= 3; i++)
+				{
+					_slotCompareDict[i] = 0;
+				}
+				foreach (var slot in _slots)
+				{
+					if (slot == 0)
+					{
+						continue;
+					}
+					for (var i = 1; i <= slot; i++)
+					{
+						_slotCompareDict[i]++;
+					}
+				}
+				foreach (var slot in other._slots)
+				{
+					if (slot == 0)
+					{
+						continue;
+					}
+					for (var i = 1; i <= slot; i++)
+					{
+						_slotCompareDict[i]--;
+					}
+				}
+				isSlotUnbalance = _slotCompareDict.Any(p => p.Value > 0) && _slotCompareDict.Any(p => p.Value < 0);
+				if (isSlotUnbalance)
+				{
+					result = 0;
+				}
+				else
+				{
+					result = 1;
+				}
+			}
+			else
+			{
+				result = 1;
+			}
 			return result;
 		}
 		#endregion public-method

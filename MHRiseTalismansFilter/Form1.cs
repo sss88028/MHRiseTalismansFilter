@@ -179,6 +179,8 @@ namespace MHRiseTalismansFilter
 
 			_decorationView.Items.Add(decoration);
 			decoration.Item.SetView(_decorationView);
+
+			DecorationSystem.Instance.AddDecoration(decoration);
 		}
 
 		private void AddSkill(Decoration decoration, ComboBox skillComboBox, ComboBox skillLevelComboBox) 

@@ -46,13 +46,19 @@ namespace MHRiseTalismansFilter
 					var result = d1.CompareTo(d2);
 					if (result > 0)
 					{
+						Console.WriteLine("[DecorationSystem.Filt] Bigger");
 						Combine(set, i, j);
 						Combine(set, a, b);
 					}
 					else if (result < 0)
 					{
+						Console.WriteLine("[DecorationSystem.Filt] Smaller");
 						Combine(set, j, i);
 						Combine(set, b, a);
+					}
+					else
+					{
+						Console.WriteLine("[DecorationSystem.Filt] Equal");
 					}
 				}
 			}
