@@ -11,6 +11,8 @@ namespace MHRiseTalismansFilter
 	{
 		#region public-field
 		public string Name;
+		public int ParentId = -1;
+		public readonly int Id;
 		#endregion public-field
 
 		#region private-field
@@ -18,6 +20,7 @@ namespace MHRiseTalismansFilter
 		private Dictionary<int, int> _skillDict = new Dictionary<int, int>();
 		private int[] _slots = new int[3];
 
+		private static int _serialId = 0;
 		private static Dictionary<int, int> _skillCompareDict = new Dictionary<int, int>();
 		private static Dictionary<int, int> _slotCompareDict = new Dictionary<int, int>();
 		#endregion private-field
@@ -30,7 +33,8 @@ namespace MHRiseTalismansFilter
 				if (_item == null) 
 				{
 					_item = new DecorationListViewItem(this);
-					_item.Text = Name;
+					_item.Text = Id.ToString();
+					_item.SubItems.Add(Name);
 					var count = 2;
 					foreach (var pair in _skillDict)
 					{
@@ -56,6 +60,7 @@ namespace MHRiseTalismansFilter
 
 					slotStr = $"{_slots[0]}-{_slots[1]}-{_slots[2]}";
 					_item.SubItems.Add($"{slotStr}");
+					_item.SubItems.Add($"{ParentId}");
 					_item.SubItems.Add(string.Empty);
 				}
 				return _item;
@@ -64,10 +69,47 @@ namespace MHRiseTalismansFilter
 		#endregion public-property
 
 		#region public-method
-
 		public static implicit operator DecorationListViewItem(Decoration decoration)
 		{
 			return decoration.Item;
+		}
+
+		public Decoration() 
+		{
+			Id = _serialId++;
+		}
+
+		public void Refresh()
+		{
+			Item.Text = Id.ToString();
+			Item.SubItems.Clear();
+			Item.SubItems.Add(Name);
+			var count = 2;
+			foreach (var pair in _skillDict)
+			{
+				if (Skill.SkillDict.TryGetValue(pair.Key, out var skill))
+				{
+					Item.SubItems.Add($"{skill.Name}");
+				}
+				Item.SubItems.Add($"{pair.Value}");
+				count--;
+			}
+
+			for (var i = 0; i < count; i++)
+			{
+				if (Skill.SkillDict.TryGetValue(0, out var skill))
+				{
+					_item.SubItems.Add($"{skill.Name}");
+				}
+				Item.SubItems.Add($"{0}");
+			}
+
+			var slotStr = string.Empty;
+
+			slotStr = $"{_slots[0]}-{_slots[1]}-{_slots[2]}";
+			Item.SubItems.Add($"{slotStr}");
+			Item.SubItems.Add($"{ParentId}");
+			Item.SubItems.Add(string.Empty);
 		}
 
 		public void AddSkill(int skillId, int skillLevel)
@@ -83,6 +125,11 @@ namespace MHRiseTalismansFilter
 
 		public int CompareTo(Decoration other)
 		{
+			if (other == this) 
+			{
+				return 0;
+			}
+
 			_skillCompareDict.Clear();
 			_slotCompareDict.Clear();
 
@@ -204,7 +251,9 @@ namespace MHRiseTalismansFilter
 
 			return result;
 		}
+		#endregion public-method
 
+		#region private-method
 		private int CompareSlot(Decoration other, bool isSlotUnbalance)
 		{
 			var result = 0;
@@ -250,10 +299,10 @@ namespace MHRiseTalismansFilter
 			}
 			else
 			{
-				result = 1;
+				result = 0;
 			}
 			return result;
 		}
-		#endregion public-method
+		#endregion private-method
 	}
 }

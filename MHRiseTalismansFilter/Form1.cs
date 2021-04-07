@@ -107,12 +107,14 @@ namespace MHRiseTalismansFilter
 			_decorationView.GridLines = true;
 			_decorationView.LabelEdit = false;
 			_decorationView.FullRowSelect = true;
+			_decorationView.Columns.Add("Id");
 			_decorationView.Columns.Add("名稱");
 			_decorationView.Columns.Add("技能");
 			_decorationView.Columns.Add("LV");
 			_decorationView.Columns.Add("技能");
 			_decorationView.Columns.Add("LV");
 			_decorationView.Columns.Add("Slot");
+			_decorationView.Columns.Add("Parent");
 			_decorationView.Columns.Add("");
 			_decorationView.DrawSubItem += ViewListDrawSubItem;
 

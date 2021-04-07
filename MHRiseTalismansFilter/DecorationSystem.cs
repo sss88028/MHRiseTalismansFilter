@@ -62,6 +62,17 @@ namespace MHRiseTalismansFilter
 					}
 				}
 			}
+
+			for (var i = 0; i < size; i++) 
+			{
+				var index = set[i];
+				if (index < 0) 
+				{
+					continue;
+				}
+				_decorations[i].ParentId = _decorations[index].Id;
+				_decorations[i].Refresh();
+			}
 		}
 		#endregion public-method
 

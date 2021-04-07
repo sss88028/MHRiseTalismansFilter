@@ -42,6 +42,8 @@ namespace MHRiseTalismansFilter
 
 			_listView = listView;
 			_listView.Controls.Add(RemoveButton);
+
+			_listView.ColumnWidthChanged -= OnColumnWidthChanged;
 			_listView.ColumnWidthChanged += OnColumnWidthChanged;
 		}
 		#endregion public-method
