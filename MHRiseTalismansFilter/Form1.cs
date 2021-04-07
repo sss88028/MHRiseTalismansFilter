@@ -16,8 +16,10 @@ namespace MHRiseTalismansFilter
 	public partial class Form1 : Form
 	{
 		#region private-field
-		private const string _skillDataPath = @".\TextData\Skill.txt";
-		private const string _nameDataPath = @".\TextData\Name.txt";
+		private const string _skillDataPath = @".\Skill.txt";
+		private const string _nameDataPath = @".\Name.txt";
+		private const string _saveDataFolder = @".\Save\";
+		private const string _saveDataPath = _saveDataFolder + @"save.txt";
 
 		private List<int> _skill_1_LevelList = new List<int>();
 		private List<int> _skill_2_LevelList = new List<int>();
@@ -42,6 +44,7 @@ namespace MHRiseTalismansFilter
 			InitSlotComboBox();
 			InitViewList();
 			InitName();
+			InitEvent();
 		}
 
 		private void InitSkill() 
@@ -114,7 +117,7 @@ namespace MHRiseTalismansFilter
 			_decorationView.Columns.Add("技能");
 			_decorationView.Columns.Add("LV");
 			_decorationView.Columns.Add("Slot");
-			_decorationView.Columns.Add("Parent");
+			_decorationView.Columns.Add("Better");
 			_decorationView.Columns.Add("");
 			_decorationView.DrawSubItem += ViewListDrawSubItem;
 
@@ -159,17 +162,22 @@ namespace MHRiseTalismansFilter
 			_nameComboBox.DataSource = new BindingSource(nameList, null);
 		}
 
+		private void InitEvent()
+		{
+			DecorationSystem.Instance.OnLoadDecoration += () =>
+			{
+				_decorationView.Items.Clear();
+				DecorationSystem.Instance.RefreshView(_decorationView);
+			};
+		}
+
 		private void ViewListDrawSubItem(object sender, DrawListViewSubItemEventArgs e) 
 		{
 			e.DrawDefault = true;
 		}
 
-		private void ViewListPaint(object sender, PaintEventArgs e)
-		{
-		}
-
 		#region UIEvent-method
-		private void AddButton_Click(object sender, EventArgs e)
+		private void OnClickAddButton(object sender, EventArgs e)
 		{
 			var decoration = new Decoration();
 
@@ -254,12 +262,37 @@ namespace MHRiseTalismansFilter
 
 			_skill_2_LevelComboBox.SelectedItem = Math.Min(oldValue, skill.MaxLevel);
 		}
-		#endregion UIEvent-method
 
 		private void OnClickFiltButton(object sender, EventArgs e)
 		{
 			DecorationSystem.Instance.Filt();
 		}
+
+		private void OnClickSaveButton(object sender, EventArgs e)
+		{
+			Directory.CreateDirectory(_saveDataFolder);
+
+			using (StreamWriter sw = new StreamWriter(_saveDataPath))
+			{
+				DecorationSystem.Instance.Serialize(sw);
+				sw.Flush();
+			}
+		}
+
+		private void OnClickLoadButton(object sender, EventArgs e)
+		{
+			if (!File.Exists(_saveDataPath))
+			{
+				MessageBox.Show("File not exist");
+				return;
+			}
+
+			using (var stream = new StreamReader(_saveDataPath))
+			{
+				DecorationSystem.Instance.Deerialize(stream);
+			}
+		}
+		#endregion UIEvent-method
 		#endregion private-field
 
 	}

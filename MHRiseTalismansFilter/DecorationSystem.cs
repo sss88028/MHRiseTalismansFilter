@@ -1,13 +1,21 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace MHRiseTalismansFilter
 {
 	class DecorationSystem : Singleton<DecorationSystem>
 	{
+		#region public-field
+		public event Action OnLoadDecoration;
+		#endregion public-field
+
 		#region private-field
 		private List<Decoration> _decorations = new List<Decoration>();
 		#endregion private-field
@@ -66,12 +74,49 @@ namespace MHRiseTalismansFilter
 			for (var i = 0; i < size; i++) 
 			{
 				var index = set[i];
-				if (index < 0) 
+				if (index >= 0)
 				{
-					continue;
+					_decorations[i].ParentId = _decorations[index].Id;
 				}
-				_decorations[i].ParentId = _decorations[index].Id;
+				else
+				{
+					_decorations[i].ParentId = -1;
+				}
 				_decorations[i].Refresh();
+			}
+		}
+
+		public void Serialize(TextWriter textWriter)
+		{
+			var jWriter = new JsonTextWriter(textWriter);
+			jWriter.WriteStartArray();
+			foreach (var d in _decorations)
+			{
+				d.Serialize(jWriter);
+			}
+			jWriter.WriteEndArray();
+		}
+
+		public void Deerialize(TextReader textReader)
+		{
+			_decorations.Clear();
+			var jReader = new JsonTextReader(textReader);
+
+			var decorations = (JArray)JToken.ReadFrom(jReader);
+			foreach (var d in decorations)
+			{
+				_decorations.Add(Decoration.Deserialize((JObject)d));
+			}
+
+			OnLoadDecoration?.Invoke();
+		}
+
+		public void RefreshView(ListView listView)
+		{
+			foreach (var d in _decorations)
+			{
+				listView.Items.Add(d);
+				d.Item.SetView(listView);
 			}
 		}
 		#endregion public-method

@@ -92,7 +92,7 @@ namespace MHRiseTalismansFilter
 			this.AddButton.TabIndex = 4;
 			this.AddButton.Text = "Add";
 			this.AddButton.UseVisualStyleBackColor = true;
-			this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
+			this.AddButton.Click += new System.EventHandler(this.OnClickAddButton);
 			// 
 			// _slot1
 			// 
@@ -166,6 +166,7 @@ namespace MHRiseTalismansFilter
 			this._saveButton.TabIndex = 14;
 			this._saveButton.Text = "Save";
 			this._saveButton.UseVisualStyleBackColor = true;
+			this._saveButton.Click += new System.EventHandler(this.OnClickSaveButton);
 			// 
 			// _loadButton
 			// 
@@ -175,6 +176,7 @@ namespace MHRiseTalismansFilter
 			this._loadButton.TabIndex = 15;
 			this._loadButton.Text = "Load";
 			this._loadButton.UseVisualStyleBackColor = true;
+			this._loadButton.Click += new System.EventHandler(this.OnClickLoadButton);
 			// 
 			// Form1
 			// 
