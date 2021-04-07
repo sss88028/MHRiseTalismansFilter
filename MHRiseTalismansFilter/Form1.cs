@@ -167,6 +167,7 @@ namespace MHRiseTalismansFilter
 			DecorationSystem.Instance.OnLoadDecoration += () =>
 			{
 				_decorationView.Items.Clear();
+				_decorationView.Controls.Clear();
 				DecorationSystem.Instance.RefreshView(_decorationView);
 			};
 		}
@@ -270,12 +271,23 @@ namespace MHRiseTalismansFilter
 
 		private void OnClickSaveButton(object sender, EventArgs e)
 		{
+
 			Directory.CreateDirectory(_saveDataFolder);
 
-			using (StreamWriter sw = new StreamWriter(_saveDataPath))
+			if (File.Exists(_saveDataPath))
 			{
-				DecorationSystem.Instance.Serialize(sw);
-				sw.Flush();
+				var result = MessageBox.Show($"Save will overwrite current saved data!!!", "Confirm Message", MessageBoxButtons.OKCancel);
+				if (result == DialogResult.OK)
+				{
+					using (StreamWriter sw = new StreamWriter(_saveDataPath))
+					{
+						DecorationSystem.Instance.Serialize(sw);
+						sw.Flush();
+					}
+				}
+				else if (result == DialogResult.Cancel)
+				{
+				}
 			}
 		}
 
@@ -287,9 +299,16 @@ namespace MHRiseTalismansFilter
 				return;
 			}
 
-			using (var stream = new StreamReader(_saveDataPath))
+			var result = MessageBox.Show($"Load will overwrite current editing data!!!", "Confirm Message", MessageBoxButtons.OKCancel);
+			if (result == DialogResult.OK)
 			{
-				DecorationSystem.Instance.Deerialize(stream);
+				using (var stream = new StreamReader(_saveDataPath))
+				{
+					DecorationSystem.Instance.Deerialize(stream);
+				}
+			}
+			else if (result == DialogResult.Cancel)
+			{
 			}
 		}
 		#endregion UIEvent-method

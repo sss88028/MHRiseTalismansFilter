@@ -11,6 +11,82 @@ namespace MHRiseTalismansFilter
 {
 	class Decoration : IComparable<Decoration>
 	{
+		private class Slots : IComparable<Slots>
+		{
+			public List<Slot1> SlotDatas = new List<Slot1>();
+
+			public int CompareTo(Slots other)
+			{
+				if (other == this)
+				{
+					return 0;
+				}
+				var size = SlotDatas.Count;
+				if (other.SlotDatas.Count != size)
+				{
+					return 0;
+				}
+
+				var isBigger = true;
+				for (var i = 0; i < size; i++)
+				{
+					isBigger &= (SlotDatas[i].CompareTo(other.SlotDatas[i]) > 0) ? true : false;
+				}
+
+				return isBigger ? 1 : -1;
+			}
+		}
+
+		private class Slot1 : IComparable<Slot1>
+		{
+			protected int _size = 1;
+
+			public bool IsFilled
+			{
+				get;
+				protected set;
+			}
+
+			public Slot1()
+			{
+				_size = 1;
+			}
+
+			public bool FillSkill(int skillId)
+			{
+				var result = Skill.SkillDict[skillId].Size.HasValue;
+				result &= Skill.SkillDict[skillId].Size.Value <= _size;
+				IsFilled = result;
+				return result;
+			}
+
+			public void Clear()
+			{
+				IsFilled = false;
+			}
+
+			public int CompareTo(Slot1 other)
+			{
+				return _size.CompareTo(other._size);
+			}
+		}
+
+		private class Slot2 : Slot1
+		{
+			public Slot2()
+			{
+				_size = 2;
+			}
+		}
+
+		private class Slot3 : Slot2
+		{
+			public Slot3()
+			{
+				_size = 3;
+			}
+		}
+
 		#region public-field
 		public string Name;
 		public int ParentId = -1;
@@ -25,6 +101,8 @@ namespace MHRiseTalismansFilter
 		private static int _serialId = 0;
 		private static Dictionary<int, int> _skillCompareDict = new Dictionary<int, int>();
 		private static Dictionary<int, int> _slotCompareDict = new Dictionary<int, int>();
+		private static Dictionary<int, int> _remainSkillCompareDict = new Dictionary<int, int>();
+		private static Dictionary<int, int> _remainSlotCompareDict = new Dictionary<int, int>();
 		#endregion private-field
 
 		#region public-property
@@ -79,6 +157,12 @@ namespace MHRiseTalismansFilter
 		public static Decoration Deserialize(JObject jObj)
 		{
 			var decoration = new Decoration();
+
+			if (jObj.TryGetValue("name", out var nameToken))
+			{
+				decoration.Name = nameToken.Value<string>();
+			}
+
 			if (jObj.TryGetValue("skills", out var skillsToken))
 			{
 				var skillArray = (JArray)skillsToken;
@@ -159,7 +243,6 @@ namespace MHRiseTalismansFilter
 			}
 
 			_skillCompareDict.Clear();
-			_slotCompareDict.Clear();
 
 			foreach (var pair in _skillDict)
 			{
@@ -172,19 +255,6 @@ namespace MHRiseTalismansFilter
 				{
 					_skillCompareDict[key] = pair.Value;
 				}
-			}
-
-			foreach (var slot in _slots)
-			{
-				if (slot == 0) 
-				{
-					continue;
-				}
-				if (!_slotCompareDict.ContainsKey(slot)) 
-				{
-					_slotCompareDict[slot] = 0;
-				}
-				_slotCompareDict[slot]++;
 			}
 
 			foreach (var pair in other._skillDict) 
@@ -200,98 +270,45 @@ namespace MHRiseTalismansFilter
 				}
 			}
 
-			foreach (var slot in other._slots)
+			var isSkillEqual = _skillCompareDict.All(k => k.Value == 0);
+			if (isSkillEqual)
 			{
-				if (slot == 0)
-				{
-					continue;
-				}
-				if (!_slotCompareDict.ContainsKey(slot))
-				{
-					_slotCompareDict[slot] = 0;
-				}
-				_slotCompareDict[slot]--;
+				return CompareSlot(_slotCompareDict, _slots, other._slots);
 			}
 
-			var isSlotUnbalance = _slotCompareDict.Any(p => p.Value > 0) && _slotCompareDict.Any(p => p.Value < 0);
+			BuildSlotCompareDict(_slotCompareDict, _slots, other._slots);
 
-			var remainSkills = from p in _skillCompareDict
-							  where p.Value < 0
-							  orderby Skill.SkillDict[p.Key].Size descending
-							  select p;
+			BuildRemainData();
 
-			foreach (var remainSkill in remainSkills) 
+			var isCanSolve = !_skillCompareDict.Any(p => p.Value < 0 && !Skill.SkillDict[p.Key].Size.HasValue);
+			var isCanBeSolved = !_skillCompareDict.Any(p => p.Value > 0 && !Skill.SkillDict[p.Key].Size.HasValue);
+			if (!isCanSolve && !isCanBeSolved)
 			{
-				var skill = Skill.SkillDict[remainSkill.Key];
+				return 0;
+			}
+			if (isCanSolve)
+			{
+				var remainSkills = from p in _skillCompareDict
+								   where p.Value < 0
+								   orderby Skill.SkillDict[p.Key].Size descending
+								   select new { Skill.SkillDict[p.Key].Size, p.Value };
 
-				if (skill.Size == null) 
+				foreach (var skill in remainSkills)
 				{
-					continue;
-				}
+					var diff = _remainSlotCompareDict[skill.Size.Value] + skill.Value;
 
-				var skillSize = skill.Size.Value;
-				for (var i = 3; i >= skillSize; i--)
-				{
-					if (!_slotCompareDict.ContainsKey(i)) 
-					{
-						continue;
-					}
-
-					if (_slotCompareDict[i] > 0)
-					{
-						var diff = _slotCompareDict[i] - remainSkill.Value;
-
-						if (diff < 0)
-						{
-							_slotCompareDict[i] = 0;
-							_skillCompareDict[remainSkill.Key] = diff;
-						}
-						else
-						{
-							_slotCompareDict[i] = diff;
-							_skillCompareDict[remainSkill.Key] = 0;
-						}
-					}
 				}
 			}
 
 			var result = 0;
-
-			var isSKillBigger = _skillCompareDict.Any(p => p.Value > 0);
-			var isSKillSmaller = _skillCompareDict.Any(p => p.Value < 0);
-			bool isBigger = isSKillBigger || _slotCompareDict.Any(p => p.Value > 0);
-			bool isSmaller = isSKillSmaller || _slotCompareDict.Any(p => p.Value < 0);
-
-			if (!isBigger && !isSmaller)
-			{
-				result = CompareSlot(other);
-			}
-			else if (isBigger && !isSmaller)
-			{
-				result = 1;
-			}
-			else if (!isBigger && isSmaller)
-			{
-				result = -1;
-			}
-			else if (isBigger && isSmaller)
-			{
-				if (isSKillBigger && isSKillSmaller)
-				{
-					result = 0;
-				}
-				else
-				{
-					result = CompareSlot(other);
-				}
-			}
-
 			return result;
 		}
 
 		public void Serialize(JsonTextWriter jsonTextWriter)
 		{
 			jsonTextWriter.WriteStartObject();
+			jsonTextWriter.WritePropertyName("name");
+			jsonTextWriter.WriteValue(Name);
 
 			jsonTextWriter.WritePropertyName("skills");
 			jsonTextWriter.WriteStartArray();
@@ -320,16 +337,52 @@ namespace MHRiseTalismansFilter
 		#endregion public-method
 
 		#region private-method
-		private int CompareSlot(Decoration other)
+		private void BuildRemainData()
+		{
+			_remainSkillCompareDict.Clear();
+			foreach (var pair in _skillCompareDict)
+			{
+				_remainSkillCompareDict.Add(pair.Key, pair.Value);
+			}
+			_remainSlotCompareDict.Clear();
+			foreach (var pair in _slotCompareDict)
+			{
+				_remainSlotCompareDict.Add(pair.Key, pair.Value);
+			}
+		}
+
+		private static void BuildSlotCompareDict(Dictionary<int, int> slotCompareDict, int[] selfSlots, int[] otherSlots)
+		{
+			slotCompareDict.Clear();
+
+			foreach (var slot in selfSlots)
+			{
+				if (!slotCompareDict.ContainsKey(slot))
+				{
+					slotCompareDict[slot] = 0;
+				}
+				slotCompareDict[slot]++;
+			}
+			foreach (var slot in otherSlots)
+			{
+				if (!slotCompareDict.ContainsKey(slot))
+				{
+					slotCompareDict[slot] = 0;
+				}
+				slotCompareDict[slot]--;
+			}
+		}
+
+		private static int CompareSlot(Dictionary<int, int> slotCompareDict, int[] selfSlots, int[] otherSlots)
 		{
 			var result = 0;
-			_slotCompareDict.Clear();
+			slotCompareDict.Clear();
 
 			for (var i = 1; i <= 3; i++)
 			{
-				_slotCompareDict[i] = 0;
+				slotCompareDict[i] = 0;
 			}
-			foreach (var slot in _slots)
+			foreach (var slot in selfSlots)
 			{
 				if (slot == 0)
 				{
@@ -337,10 +390,10 @@ namespace MHRiseTalismansFilter
 				}
 				for (var i = 1; i <= slot; i++)
 				{
-					_slotCompareDict[i]++;
+					slotCompareDict[i]++;
 				}
 			}
-			foreach (var slot in other._slots)
+			foreach (var slot in otherSlots)
 			{
 				if (slot == 0)
 				{
@@ -348,21 +401,34 @@ namespace MHRiseTalismansFilter
 				}
 				for (var i = 1; i <= slot; i++)
 				{
-					_slotCompareDict[i]--;
+					slotCompareDict[i]--;
 				}
 			}
-			var isBigger = _slotCompareDict.Any(p => p.Value > 0);
-			var isSmaller = _slotCompareDict.Any(p => p.Value < 0);
-			var isSlotUnbalance = isBigger && isSmaller;
+
+			var isEqual = slotCompareDict.All(p => p.Value == 0);
+			if (isEqual)
+			{
+				return 1;
+			}
+
+			var isBigger = slotCompareDict.All(p => p.Value >= 0);
+			var isSmaller = slotCompareDict.All(p => p.Value <= 0);
+
+			var isSlotUnbalance = !isBigger && !isSmaller;
 
 			if (isSlotUnbalance)
 			{
 				result = 0;
 			}
-			else
+			else if(isBigger)
 			{
-				result = isBigger ? 1 : -1;
+				result = 1;
 			}
+			else if (isSmaller)
+			{
+				result = -1;
+			}
+
 			return result;
 		}
 		#endregion private-method
