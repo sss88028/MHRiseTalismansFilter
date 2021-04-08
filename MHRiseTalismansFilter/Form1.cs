@@ -61,6 +61,9 @@ namespace MHRiseTalismansFilter
 					}
 				}
 			}
+			Console.WriteLine(Skill.SkillList.Count());
+			Console.WriteLine(Skill.SkillList.Where(s => s.Size.HasValue).Count());
+			Console.WriteLine(Skill.SkillList.Where(s => !s.Size.HasValue).Count());
 			Console.WriteLine(Skill.SkillList.Where(s => s.Size == 1).Count());
 			Console.WriteLine(Skill.SkillList.Where(s => s.Size == 2).Count());
 			Console.WriteLine(Skill.SkillList.Where(s => s.Size == 3).Count());
