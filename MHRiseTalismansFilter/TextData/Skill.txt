@@ -7,6 +7,106 @@
 				"zh-TW" : "無"
 			},
 		] 
+	},
+    { 
+		"size": 1, 
+		"maxlevel" : 1,
+		"name": 
+		[
+			{
+				"zh-TW" : "飛身躍入"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "龍耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "冰耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "雷耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "水耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "火耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "毒耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "麻痺耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "睡眠耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "爆破異常狀態的耐性"
+			},
+		] 
 	}, 
     { 
 		"size": 1, 
@@ -15,6 +115,426 @@
 		[
 			{
 				"zh-TW" : "植生學"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "地質學"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 1,
+		"name": 
+		[
+			{
+				"zh-TW" : "佯攻"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 2,
+		"name": 
+		[
+			{
+				"zh-TW" : "泥雪耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "飢餓耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 1,
+		"name": 
+		[
+			{
+				"zh-TW" : "剝取鐵人"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 7,
+		"name": 
+		[
+			{
+				"zh-TW" : "防禦"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 6,
+		"name": 
+		[
+			{
+				"zh-TW" : "龍屬性攻撃強化"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 6,
+		"name": 
+		[
+			{
+				"zh-TW" : "冰屬性攻撃強化"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 6,
+		"name": 
+		[
+			{
+				"zh-TW" : "雷屬性攻撃強化"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 6,
+		"name": 
+		[
+			{
+				"zh-TW" : "水屬性攻撃強化"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 6,
+		"name": 
+		[
+			{
+				"zh-TW" : "火屬性攻撃強化"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "炸彈客"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 1,
+		"name": 
+		[
+			{
+				"zh-TW" : "滑走強化"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "毒屬性強化"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 1,
+		"name": 
+		[
+			{
+				"zh-TW" : "吹笛名人"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "奪取耐力"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "回復速度"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "砥石使用高速化"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "風壓耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "減輕膽怯"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 2,
+		"name": 
+		[
+			{
+				"zh-TW" : "抑制偏移"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "昏厥耐性"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "裝填速度"
+			},
+		] 
+	},  
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "後座力減輕"
+			},
+		] 
+	}, 
+    { 
+		"size": 1, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "滿足感"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 1,
+		"name": 
+		[
+			{
+				"zh-TW" : "不屈"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 1,
+		"name": 
+		[
+			{
+				"zh-TW" : "騎乘名人"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "體術"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "體力回復量UP"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "道具使用強化"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "翔蟲能手"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "飛簷走壁"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "精靈加護"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "快吃"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "屬性異常狀態的耐性"
+			},
+		] 
+	},  
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "破壞王"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "廣域化"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "KO術"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "收刀術"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "迴避性能"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "迴避距離UP"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "拔刀術【力】"
 			},
 		] 
 	}, 
@@ -30,42 +550,397 @@
 	}, 
     { 
 		"size": 2, 
-		"maxlevel" : 5,
+		"maxlevel" : 3,
 		"name": 
 		[
 			{
-				"zh-TW" : "迴避性能"
-			},
-		] 
-	}, 
-    { 
-		"size": 1, 
-		"maxlevel" : 6,
-		"name": 
-		[
-			{
-				"zh-TW" : "火屬性攻擊強化"
-			},
-		] 
-	}, 
-    { 
-		"size": 2,
-		"maxlevel" : 3, 
-		"name": 
-		[
-			{
-				"zh-TW" : "翔蟲能手"
+				"zh-TW" : "逆襲"
 			},
 		] 
 	}, 
     { 
 		"size": 2, 
-		"maxlevel" : 3, 
+		"maxlevel" : 3,
 		"name": 
 		[
 			{
-				"zh-TW" : "精靈加護"
+				"zh-TW" : "耐震"
 			},
 		] 
 	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "鈍器能手"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "高速變形"
+			},
+		] 
+	},  
+    { 
+		"size": 2, 
+		"maxlevel" : 7,
+		"name": 
+		[
+			{
+				"zh-TW" : "看破"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 7,
+		"name": 
+		[
+			{
+				"zh-TW" : "攻擊"
+			},
+		] 
+	}, 
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "精神抖擻"
+			},
+		] 
+	},  
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "強化持續"
+			},
+		] 
+	},  
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "耐力急速回復"
+			},
+		] 
+	},  
+    { 
+		"size": 2, 
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "防禦性能"
+			},
+		] 
+	},   
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "防禦強化"
+			},
+		] 
+	},   
+    { 
+		"size": 2, 
+		"maxlevel" : 2,
+		"name": 
+		[
+			{
+				"zh-TW" : "砲彈裝填"
+			},
+		] 
+	},  
+    { 
+		"size": 2, 
+		"maxlevel" : 2,
+		"name": 
+		[
+			{
+				"zh-TW" : "特殊射擊強化"
+			},
+		] 
+	},   
+    { 
+		"size": 2, 
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "火場怪力"
+			},
+		] 
+	},  
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "心眼"
+			},
+		] 
+	},   
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "集中"
+			},
+		] 
+	},
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "跑者"
+			},
+		] 
+	},
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "砲術"
+			},
+		] 
+	},
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "會心擊【屬性】"
+			},
+		] 
+	},
+    { 
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "彈道強化"
+			},
+		] 
+	},
+    { 
+		"size": 3, 
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "耳塞"
+			},
+		] 
+	},
+    { 
+		"size": 3, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "拔刀術【技】"
+			},
+		] 
+	},
+    { 
+		"size": 3, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "最愛菇類"
+			},
+		] 
+	},
+    { 
+		"size": 3, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "攻擊守勢"
+			},
+		] 
+	},
+    { 
+		"size": 3, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "裝填擴充"
+			},
+		] 
+	},
+	
+    {  
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "挑戰者"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "無傷"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "怨恨"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "死裡逃生"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "超會心"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "弱點特效"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "力量解放"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 5,
+		"name": 
+		[
+			{
+				"zh-TW" : "匠"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "利刃"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "彈藥節約"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "剛刃研磨"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "通常彈・連射箭強化"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "貫通彈・貫通箭強化"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "散彈・擴散箭強化"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "速射強化"
+			},
+		] 
+	},
+    {  
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "幸運"
+			},
+		] 
+	},
 ] 

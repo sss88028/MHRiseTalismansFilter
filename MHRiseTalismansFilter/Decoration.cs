@@ -275,10 +275,23 @@ namespace MHRiseTalismansFilter
 			{
 				return CompareSlot(_slotCompareDict, _slots, other._slots);
 			}
+			var isSkillBigger = _skillCompareDict.All(k => k.Value >= 0);
+			var isSkillSmall = _skillCompareDict.All(k => k.Value <= 0);
 
 			BuildSlotCompareDict(_slotCompareDict, _slots, other._slots);
 
-			BuildRemainData();
+			var isSlotEqual = _slotCompareDict.All(k => k.Value == 0);
+			if (isSlotEqual) 
+			{
+				if (isSkillBigger)
+				{
+					return 1;
+				}
+				else if(isSkillSmall)
+				{
+					return -1;
+				}
+			}
 
 			var isCanSolve = !_skillCompareDict.Any(p => p.Value < 0 && !Skill.SkillDict[p.Key].Size.HasValue);
 			var isCanBeSolved = !_skillCompareDict.Any(p => p.Value > 0 && !Skill.SkillDict[p.Key].Size.HasValue);
@@ -286,21 +299,59 @@ namespace MHRiseTalismansFilter
 			{
 				return 0;
 			}
+
 			if (isCanSolve)
 			{
+				CompareSlot(_slotCompareDict, _slots, other._slots);
 				var remainSkills = from p in _skillCompareDict
 								   where p.Value < 0
 								   orderby Skill.SkillDict[p.Key].Size descending
-								   select new { Skill.SkillDict[p.Key].Size, p.Value };
+								   select new 
+								   {
+									   Size = Skill.SkillDict[p.Key].Size.Value, 
+									   Value = p.Value ,
+								   };
 
 				foreach (var skill in remainSkills)
 				{
-					var diff = _remainSlotCompareDict[skill.Size.Value] + skill.Value;
-
+					_slotCompareDict[skill.Size] += skill.Value;
 				}
+				isCanSolve = _slotCompareDict.All(p => p.Value >= 0);
+			}
+			if (isCanBeSolved)
+			{
+				CompareSlot(_slotCompareDict, _slots, other._slots);
+				var remainSkills = from p in _skillCompareDict
+								   where p.Value > 0
+								   orderby Skill.SkillDict[p.Key].Size descending
+								   select new
+								   {
+									   Size = Skill.SkillDict[p.Key].Size.Value,
+									   Value = p.Value,
+								   };
+
+				foreach (var skill in remainSkills)
+				{
+					_slotCompareDict[skill.Size] += skill.Value;
+				}
+				isCanBeSolved = _slotCompareDict.All(p => p.Value <= 0);
+			}
+
+			if (!isCanSolve && !isCanBeSolved)
+			{
+				return 0;
 			}
 
 			var result = 0;
+			if (isCanSolve && !isCanBeSolved)
+			{
+				result = 1;
+			}
+			else if (!isCanSolve && isCanBeSolved)
+			{
+				result = -1;
+			}
+
 			return result;
 		}
 
@@ -382,26 +433,32 @@ namespace MHRiseTalismansFilter
 			{
 				slotCompareDict[i] = 0;
 			}
-			foreach (var slot in selfSlots)
+			if (selfSlots != null)
 			{
-				if (slot == 0)
+				foreach (var slot in selfSlots)
 				{
-					continue;
-				}
-				for (var i = 1; i <= slot; i++)
-				{
-					slotCompareDict[i]++;
+					if (slot == 0)
+					{
+						continue;
+					}
+					for (var i = 1; i <= slot; i++)
+					{
+						slotCompareDict[i]++;
+					}
 				}
 			}
-			foreach (var slot in otherSlots)
+			if (otherSlots != null)
 			{
-				if (slot == 0)
+				foreach (var slot in otherSlots)
 				{
-					continue;
-				}
-				for (var i = 1; i <= slot; i++)
-				{
-					slotCompareDict[i]--;
+					if (slot == 0)
+					{
+						continue;
+					}
+					for (var i = 1; i <= slot; i++)
+					{
+						slotCompareDict[i]--;
+					}
 				}
 			}
 

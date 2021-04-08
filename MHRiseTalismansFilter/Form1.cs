@@ -61,6 +61,9 @@ namespace MHRiseTalismansFilter
 					}
 				}
 			}
+			Console.WriteLine(Skill.SkillList.Where(s => s.Size == 1).Count());
+			Console.WriteLine(Skill.SkillList.Where(s => s.Size == 2).Count());
+			Console.WriteLine(Skill.SkillList.Where(s => s.Size == 3).Count());
 		}
 
 		private void InitSkillComboBox() 
@@ -274,19 +277,18 @@ namespace MHRiseTalismansFilter
 
 			Directory.CreateDirectory(_saveDataFolder);
 
+			var isSave = true;
 			if (File.Exists(_saveDataPath))
 			{
 				var result = MessageBox.Show($"Save will overwrite current saved data!!!", "Confirm Message", MessageBoxButtons.OKCancel);
-				if (result == DialogResult.OK)
+				isSave = result == DialogResult.OK;
+			}
+			if (isSave)
+			{
+				using (StreamWriter sw = new StreamWriter(_saveDataPath))
 				{
-					using (StreamWriter sw = new StreamWriter(_saveDataPath))
-					{
-						DecorationSystem.Instance.Serialize(sw);
-						sw.Flush();
-					}
-				}
-				else if (result == DialogResult.Cancel)
-				{
+					DecorationSystem.Instance.Serialize(sw);
+					sw.Flush();
 				}
 			}
 		}
