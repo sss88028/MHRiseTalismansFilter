@@ -54,19 +54,25 @@ namespace MHRiseTalismansFilter
 					var result = d1.CompareTo(d2);
 					if (result > 0)
 					{
+#if DEBUG
 						Console.WriteLine("[DecorationSystem.Filt] Bigger");
+#endif
 						Combine(set, i, j);
 						Combine(set, a, b);
 					}
 					else if (result < 0)
 					{
+#if DEBUG
 						Console.WriteLine("[DecorationSystem.Filt] Smaller");
+#endif
 						Combine(set, j, i);
 						Combine(set, b, a);
 					}
 					else
 					{
+#if DEBUG
 						Console.WriteLine("[DecorationSystem.Filt] Equal");
+#endif
 					}
 				}
 			}
@@ -119,9 +125,9 @@ namespace MHRiseTalismansFilter
 				d.Item.SetView(listView);
 			}
 		}
-		#endregion public-method
+#endregion public-method
 
-		#region private-method
+#region private-method
 		private void Combine(int[] set, int parent, int child) 
 		{
 			var parentsParent = GetParent(set, parent);
@@ -143,6 +149,6 @@ namespace MHRiseTalismansFilter
 			}
 			return child;
 		}
-		#endregion private-method
+#endregion private-method
 	}
 }
