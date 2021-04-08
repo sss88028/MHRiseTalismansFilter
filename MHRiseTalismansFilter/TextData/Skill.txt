@@ -960,7 +960,7 @@
 				"zh-TW" : "跳躍鐵人"
 			},
 		] 
-	
+	},
     {  
 		"maxlevel" : 4,
 		"name": 
@@ -971,7 +971,7 @@
 		] 
 	},
     {  
-		"maxlevel" : 4,
+		"maxlevel" : 3,
 		"name": 
 		[
 			{
@@ -980,7 +980,7 @@
 		] 
 	},
     {  
-		"maxlevel" : 4,
+		"maxlevel" : 3,
 		"name": 
 		[
 			{
@@ -989,7 +989,7 @@
 		] 
 	},
     {  
-		"maxlevel" : 4,
+		"maxlevel" : 3,
 		"name": 
 		[
 			{
