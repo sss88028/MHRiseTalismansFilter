@@ -14,6 +14,7 @@ namespace MHRiseTalismansFilter
 	{
 		#region public-field
 		public event Action OnLoadDecoration;
+		public event Action<int> OnFiltedDecoration;
 		#endregion public-field
 
 		#region private-field
@@ -77,12 +78,14 @@ namespace MHRiseTalismansFilter
 				}
 			}
 
+			var count = 0;
 			for (var i = 0; i < size; i++) 
 			{
 				var index = set[i];
 				if (index >= 0)
 				{
 					_decorations[i].ParentId = _decorations[index].Id;
+					count++;
 				}
 				else
 				{
@@ -90,11 +93,13 @@ namespace MHRiseTalismansFilter
 				}
 				_decorations[i].Refresh();
 			}
+			OnFiltedDecoration?.Invoke(count);
 		}
 
 		public void Serialize(TextWriter textWriter)
 		{
 			var jWriter = new JsonTextWriter(textWriter);
+			jWriter.Formatting = Formatting.Indented;
 			jWriter.WriteStartArray();
 			foreach (var d in _decorations)
 			{
@@ -105,6 +110,7 @@ namespace MHRiseTalismansFilter
 
 		public void Deerialize(TextReader textReader)
 		{
+			Decoration.SerialId = 1;
 			_decorations.Clear();
 			var jReader = new JsonTextReader(textReader);
 
@@ -127,7 +133,7 @@ namespace MHRiseTalismansFilter
 		}
 #endregion public-method
 
-#region private-method
+		#region private-method
 		private void Combine(int[] set, int parent, int child) 
 		{
 			var parentsParent = GetParent(set, parent);
@@ -149,6 +155,6 @@ namespace MHRiseTalismansFilter
 			}
 			return child;
 		}
-#endregion private-method
+		#endregion private-method
 	}
 }

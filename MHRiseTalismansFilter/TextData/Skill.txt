@@ -827,7 +827,7 @@
 		] 
 	},
     {  
-		"maxlevel" : 5,
+		"maxlevel" : 3,
 		"name": 
 		[
 			{

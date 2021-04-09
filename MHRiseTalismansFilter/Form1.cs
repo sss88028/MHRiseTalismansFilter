@@ -32,6 +32,14 @@ namespace MHRiseTalismansFilter
 		public Form1()
 		{
 			InitializeComponent();
+
+			_decorationView.FullRowSelect = true;
+
+			ListViewExtender extender = new ListViewExtender(_decorationView);
+			var buttonAction = new ListViewButtonColumn(8);
+			buttonAction.Click += OnClickRemoveButton;
+
+			extender.AddColumn(buttonAction);
 		}
 		#endregion public-method
 
@@ -176,6 +184,11 @@ namespace MHRiseTalismansFilter
 				_decorationView.Controls.Clear();
 				DecorationSystem.Instance.RefreshView(_decorationView);
 			};
+			
+			DecorationSystem.Instance.OnFiltedDecoration += (count) =>
+			{
+				label2.Text = $"{count}";
+			};
 		}
 
 		private void ViewListDrawSubItem(object sender, DrawListViewSubItemEventArgs e) 
@@ -315,6 +328,16 @@ namespace MHRiseTalismansFilter
 			else if (result == DialogResult.Cancel)
 			{
 			}
+		}
+
+		private void OnClickRemoveButton(object sender, ListViewColumnMouseEventArgs e)
+		{
+			var item = (DecorationListViewItem)e.Item;
+			if (item == null) 
+			{
+				return;
+			}
+			item.RemoveItem();
 		}
 		#endregion UIEvent-method
 		#endregion private-field

@@ -44,6 +44,7 @@ namespace MHRiseTalismansFilter
 			this._filtButton = new System.Windows.Forms.Button();
 			this._saveButton = new System.Windows.Forms.Button();
 			this._loadButton = new System.Windows.Forms.Button();
+			this.label2 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// _skill_1_ComboBox
@@ -147,6 +148,7 @@ namespace MHRiseTalismansFilter
 			this._decorationView.Size = new System.Drawing.Size(670, 373);
 			this._decorationView.TabIndex = 12;
 			this._decorationView.UseCompatibleStateImageBehavior = false;
+			this._decorationView.View = System.Windows.Forms.View.Details;
 			// 
 			// _filtButton
 			// 
@@ -178,11 +180,21 @@ namespace MHRiseTalismansFilter
 			this._loadButton.UseVisualStyleBackColor = true;
 			this._loadButton.Click += new System.EventHandler(this.OnClickLoadButton);
 			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Location = new System.Drawing.Point(716, 367);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(33, 12);
+			this.label2.TabIndex = 16;
+			this.label2.Text = "label2";
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this._loadButton);
 			this.Controls.Add(this._saveButton);
 			this.Controls.Add(this._filtButton);
@@ -222,6 +234,7 @@ namespace MHRiseTalismansFilter
 		private System.Windows.Forms.Button _filtButton;
 		private System.Windows.Forms.Button _saveButton;
 		private System.Windows.Forms.Button _loadButton;
+		private System.Windows.Forms.Label label2;
 	}
 }
 
