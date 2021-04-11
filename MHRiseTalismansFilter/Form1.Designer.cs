@@ -50,46 +50,52 @@ namespace MHRiseTalismansFilter
 			// _skill_1_ComboBox
 			// 
 			this._skill_1_ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._skill_1_ComboBox.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._skill_1_ComboBox.FormattingEnabled = true;
+			this._skill_1_ComboBox.ItemHeight = 20;
 			this._skill_1_ComboBox.Location = new System.Drawing.Point(145, 12);
 			this._skill_1_ComboBox.Name = "_skill_1_ComboBox";
-			this._skill_1_ComboBox.Size = new System.Drawing.Size(121, 20);
+			this._skill_1_ComboBox.Size = new System.Drawing.Size(238, 28);
 			this._skill_1_ComboBox.TabIndex = 0;
 			this._skill_1_ComboBox.SelectedIndexChanged += new System.EventHandler(this.Skill1ComboBox_SelectedIndexChanged);
 			// 
 			// _skill_1_LevelComboBox
 			// 
 			this._skill_1_LevelComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._skill_1_LevelComboBox.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._skill_1_LevelComboBox.FormattingEnabled = true;
-			this._skill_1_LevelComboBox.Location = new System.Drawing.Point(272, 12);
+			this._skill_1_LevelComboBox.Location = new System.Drawing.Point(389, 12);
 			this._skill_1_LevelComboBox.Name = "_skill_1_LevelComboBox";
-			this._skill_1_LevelComboBox.Size = new System.Drawing.Size(41, 20);
+			this._skill_1_LevelComboBox.Size = new System.Drawing.Size(48, 28);
 			this._skill_1_LevelComboBox.TabIndex = 1;
 			// 
 			// _skill_2_LevelComboBox
 			// 
 			this._skill_2_LevelComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._skill_2_LevelComboBox.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._skill_2_LevelComboBox.FormattingEnabled = true;
-			this._skill_2_LevelComboBox.Location = new System.Drawing.Point(446, 12);
+			this._skill_2_LevelComboBox.Location = new System.Drawing.Point(639, 12);
 			this._skill_2_LevelComboBox.Name = "_skill_2_LevelComboBox";
-			this._skill_2_LevelComboBox.Size = new System.Drawing.Size(41, 20);
+			this._skill_2_LevelComboBox.Size = new System.Drawing.Size(49, 28);
 			this._skill_2_LevelComboBox.TabIndex = 3;
 			// 
 			// _skill_2_ComboBox
 			// 
 			this._skill_2_ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._skill_2_ComboBox.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._skill_2_ComboBox.FormattingEnabled = true;
-			this._skill_2_ComboBox.Location = new System.Drawing.Point(319, 12);
+			this._skill_2_ComboBox.Location = new System.Drawing.Point(443, 12);
 			this._skill_2_ComboBox.Name = "_skill_2_ComboBox";
-			this._skill_2_ComboBox.Size = new System.Drawing.Size(121, 20);
+			this._skill_2_ComboBox.Size = new System.Drawing.Size(190, 28);
 			this._skill_2_ComboBox.TabIndex = 2;
 			this._skill_2_ComboBox.SelectedIndexChanged += new System.EventHandler(this.Skill2ComboBox_SelectedIndexChanged);
 			// 
 			// AddButton
 			// 
-			this.AddButton.Location = new System.Drawing.Point(698, 10);
+			this.AddButton.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this.AddButton.Location = new System.Drawing.Point(1024, 10);
 			this.AddButton.Name = "AddButton";
-			this.AddButton.Size = new System.Drawing.Size(75, 23);
+			this.AddButton.Size = new System.Drawing.Size(75, 32);
 			this.AddButton.TabIndex = 4;
 			this.AddButton.Text = "Add";
 			this.AddButton.UseVisualStyleBackColor = true;
@@ -98,61 +104,67 @@ namespace MHRiseTalismansFilter
 			// _slot1
 			// 
 			this._slot1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._slot1.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._slot1.FormattingEnabled = true;
-			this._slot1.Location = new System.Drawing.Point(554, 12);
+			this._slot1.Location = new System.Drawing.Point(798, 8);
 			this._slot1.Name = "_slot1";
-			this._slot1.Size = new System.Drawing.Size(39, 20);
+			this._slot1.Size = new System.Drawing.Size(51, 28);
 			this._slot1.TabIndex = 5;
 			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(515, 15);
+			this.label1.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this.label1.Location = new System.Drawing.Point(754, 8);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(23, 12);
+			this.label1.Size = new System.Drawing.Size(38, 20);
 			this.label1.TabIndex = 8;
 			this.label1.Text = "Slot";
 			// 
 			// _slot2
 			// 
 			this._slot2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._slot2.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._slot2.FormattingEnabled = true;
-			this._slot2.Location = new System.Drawing.Point(599, 12);
+			this._slot2.Location = new System.Drawing.Point(855, 8);
 			this._slot2.Name = "_slot2";
-			this._slot2.Size = new System.Drawing.Size(39, 20);
+			this._slot2.Size = new System.Drawing.Size(57, 28);
 			this._slot2.TabIndex = 9;
 			// 
 			// _slot3
 			// 
 			this._slot3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._slot3.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._slot3.FormattingEnabled = true;
-			this._slot3.Location = new System.Drawing.Point(644, 12);
+			this._slot3.Location = new System.Drawing.Point(918, 8);
 			this._slot3.Name = "_slot3";
-			this._slot3.Size = new System.Drawing.Size(39, 20);
+			this._slot3.Size = new System.Drawing.Size(63, 28);
 			this._slot3.TabIndex = 10;
 			// 
 			// _nameComboBox
 			// 
 			this._nameComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this._nameComboBox.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._nameComboBox.FormattingEnabled = true;
 			this._nameComboBox.Location = new System.Drawing.Point(12, 12);
 			this._nameComboBox.Name = "_nameComboBox";
-			this._nameComboBox.Size = new System.Drawing.Size(121, 20);
+			this._nameComboBox.Size = new System.Drawing.Size(121, 28);
 			this._nameComboBox.TabIndex = 11;
 			// 
 			// _decorationView
 			// 
+			this._decorationView.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
 			this._decorationView.HideSelection = false;
 			this._decorationView.Location = new System.Drawing.Point(12, 48);
 			this._decorationView.Name = "_decorationView";
-			this._decorationView.Size = new System.Drawing.Size(670, 373);
+			this._decorationView.Size = new System.Drawing.Size(969, 554);
 			this._decorationView.TabIndex = 12;
 			this._decorationView.UseCompatibleStateImageBehavior = false;
 			this._decorationView.View = System.Windows.Forms.View.Details;
 			// 
 			// _filtButton
 			// 
-			this._filtButton.Location = new System.Drawing.Point(698, 398);
+			this._filtButton.Location = new System.Drawing.Point(1024, 579);
 			this._filtButton.Name = "_filtButton";
 			this._filtButton.Size = new System.Drawing.Size(75, 23);
 			this._filtButton.TabIndex = 13;
@@ -162,9 +174,10 @@ namespace MHRiseTalismansFilter
 			// 
 			// _saveButton
 			// 
-			this._saveButton.Location = new System.Drawing.Point(698, 48);
+			this._saveButton.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this._saveButton.Location = new System.Drawing.Point(1024, 64);
 			this._saveButton.Name = "_saveButton";
-			this._saveButton.Size = new System.Drawing.Size(75, 23);
+			this._saveButton.Size = new System.Drawing.Size(75, 36);
 			this._saveButton.TabIndex = 14;
 			this._saveButton.Text = "Save";
 			this._saveButton.UseVisualStyleBackColor = true;
@@ -172,9 +185,10 @@ namespace MHRiseTalismansFilter
 			// 
 			// _loadButton
 			// 
-			this._loadButton.Location = new System.Drawing.Point(698, 77);
+			this._loadButton.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this._loadButton.Location = new System.Drawing.Point(1024, 106);
 			this._loadButton.Name = "_loadButton";
-			this._loadButton.Size = new System.Drawing.Size(75, 23);
+			this._loadButton.Size = new System.Drawing.Size(75, 32);
 			this._loadButton.TabIndex = 15;
 			this._loadButton.Text = "Load";
 			this._loadButton.UseVisualStyleBackColor = true;
@@ -183,9 +197,10 @@ namespace MHRiseTalismansFilter
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(716, 367);
+			this.label2.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+			this.label2.Location = new System.Drawing.Point(1037, 556);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(33, 12);
+			this.label2.Size = new System.Drawing.Size(53, 20);
 			this.label2.TabIndex = 16;
 			this.label2.Text = "label2";
 			// 
@@ -193,7 +208,7 @@ namespace MHRiseTalismansFilter
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(1111, 623);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this._loadButton);
 			this.Controls.Add(this._saveButton);
