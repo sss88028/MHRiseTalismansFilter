@@ -1,0 +1,5588 @@
+[
+  {
+    "id": 1,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 73,
+        "skillName": "會心擊【屬性】",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 43,
+        "skillName": "飛簷走壁",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 59,
+        "skillName": "看破",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 3,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 4,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 98,
+        "skillName": "鬼火纏身",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 5,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 45,
+        "skillName": "快吃",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 6,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 80,
+        "skillName": "挑戰者",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 30,
+        "skillName": "風壓耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 7,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 61,
+        "skillName": "精神抖擻",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 8,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 17,
+        "skillName": "防禦",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 9,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 83,
+        "skillName": "死裡逃生",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 96,
+        "skillName": "火場怪力",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 10,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 95,
+        "skillName": "幸運",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 11,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 90,
+        "skillName": "剛刃研磨",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 45,
+        "skillName": "快吃",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 12,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 25,
+        "skillName": "毒屬性強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 13,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 36,
+        "skillName": "滿足感",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 14,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 56,
+        "skillName": "耐震",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 40,
+        "skillName": "體力回復量UP",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 15,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 16,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 66,
+        "skillName": "砲彈裝填",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 17,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 18,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 92,
+        "skillName": "貫通彈・貫通箭強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 19,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 47,
+        "skillName": "破壞王",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 20,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 21,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 6,
+        "skillName": "火耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 98,
+        "skillName": "鬼火纏身",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 22,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 23,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 24,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 44,
+        "skillName": "精靈加護",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 13,
+        "skillName": "佯攻",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 25,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 44,
+        "skillName": "精靈加護",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 94,
+        "skillName": "速射強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 26,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 8,
+        "skillName": "麻痺耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 27,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 96,
+        "skillName": "火場怪力",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 28,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 38,
+        "skillName": "騎乘名人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 99,
+        "skillName": "睡眠屬性強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 29,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 45,
+        "skillName": "快吃",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 41,
+        "skillName": "道具使用強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 30,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 8,
+        "skillName": "麻痺耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 40,
+        "skillName": "體力回復量UP",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 31,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 8,
+        "skillName": "麻痺耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 32,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 59,
+        "skillName": "看破",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 9,
+        "skillName": "睡眠耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 33,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 36,
+        "skillName": "滿足感",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 74,
+        "skillName": "彈道強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 34,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 5,
+        "skillName": "水耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 35,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 101,
+        "skillName": "爆破屬性強化",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 36,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 24,
+        "skillName": "滑走強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 37,
+        "skillName": "不屈",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 37,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 25,
+        "skillName": "毒屬性強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 38,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 101,
+        "skillName": "爆破屬性強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 39,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 92,
+        "skillName": "貫通彈・貫通箭強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 40,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 38,
+        "skillName": "騎乘名人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 30,
+        "skillName": "風壓耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 41,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 10,
+        "skillName": "爆破異常狀態的耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 42,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 37,
+        "skillName": "不屈",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 10,
+        "skillName": "爆破異常狀態的耐性",
+        "skillLevel": 3
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 43,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 30,
+        "skillName": "風壓耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 3
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 44,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 85,
+        "skillName": "弱點特效",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 5,
+        "skillName": "水耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 45,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 81,
+        "skillName": "無傷",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 46,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 89,
+        "skillName": "彈藥節約",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 99,
+        "skillName": "睡眠屬性強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 47,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 85,
+        "skillName": "弱點特效",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 48,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 4,
+        "skillName": "雷耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 47,
+        "skillName": "破壞王",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 49,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 50,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 38,
+        "skillName": "騎乘名人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 100,
+        "skillName": "麻痺屬性強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 51,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 37,
+        "skillName": "不屈",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 90,
+        "skillName": "剛刃研磨",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 52,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 25,
+        "skillName": "毒屬性強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 53,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 90,
+        "skillName": "剛刃研磨",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 46,
+        "skillName": "屬性異常狀態的耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 54,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 55,
+        "skillName": "逆襲",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 55,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 27,
+        "skillName": "奪取耐力",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 56,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 57,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 14,
+        "skillName": "泥雪耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 58,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 59,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 6,
+        "skillName": "火耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 60,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 44,
+        "skillName": "精靈加護",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 4,
+        "skillName": "雷耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 61,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 7,
+        "skillName": "毒耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 62,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 46,
+        "skillName": "屬性異常狀態的耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 10,
+        "skillName": "爆破異常狀態的耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 63,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 64,
+        "skillName": "防禦性能",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 45,
+        "skillName": "快吃",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 64,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 38,
+        "skillName": "騎乘名人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 85,
+        "skillName": "弱點特效",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 65,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 67,
+        "skillName": "特殊射擊強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 56,
+        "skillName": "耐震",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 66,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 26,
+        "skillName": "吹笛名人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 38,
+        "skillName": "騎乘名人",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 67,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 18,
+        "skillName": "龍屬性攻撃強化",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 68,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 69,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 70,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 99,
+        "skillName": "睡眠屬性強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 71,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 88,
+        "skillName": "利刃",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 72,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "飛身躍入",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 73,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 71,
+        "skillName": "跑者",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 80,
+        "skillName": "挑戰者",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 74,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 27,
+        "skillName": "奪取耐力",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 75,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 30,
+        "skillName": "風壓耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 76,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 20,
+        "skillName": "雷屬性攻撃強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 83,
+        "skillName": "死裡逃生",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 77,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 3,
+        "skillName": "冰耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 78,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 45,
+        "skillName": "快吃",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 79,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 100,
+        "skillName": "麻痺屬性強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 80,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 86,
+        "skillName": "力量解放",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 81,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 82,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 83,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 84,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 85,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 44,
+        "skillName": "精靈加護",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 43,
+        "skillName": "飛簷走壁",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 86,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 37,
+        "skillName": "不屈",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 47,
+        "skillName": "破壞王",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 87,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 24,
+        "skillName": "滑走強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 88,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "飛身躍入",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 89,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 54,
+        "skillName": "泡沫之舞",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 8,
+        "skillName": "麻痺耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 90,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 25,
+        "skillName": "毒屬性強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 12,
+        "skillName": "地質學",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 91,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 24,
+        "skillName": "滑走強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 1,
+        "skillName": "飛身躍入",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 92,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 56,
+        "skillName": "耐震",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 93,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 94,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 95,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 8,
+        "skillName": "麻痺耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 64,
+        "skillName": "防禦性能",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 96,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 24,
+        "skillName": "滑走強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 97,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 90,
+        "skillName": "剛刃研磨",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 98,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 99,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 10,
+        "skillName": "爆破異常狀態的耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 100,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 30,
+        "skillName": "風壓耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 101,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 10,
+        "skillName": "爆破異常狀態的耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 65,
+        "skillName": "防禦強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 102,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 4,
+        "skillName": "雷耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 87,
+        "skillName": "匠",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 103,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 20,
+        "skillName": "雷屬性攻撃強化",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 104,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 25,
+        "skillName": "毒屬性強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 46,
+        "skillName": "屬性異常狀態的耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 105,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 85,
+        "skillName": "弱點特效",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 106,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 1,
+        "skillName": "飛身躍入",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 107,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 61,
+        "skillName": "精神抖擻",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 108,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 54,
+        "skillName": "泡沫之舞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 109,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 99,
+        "skillName": "睡眠屬性強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 110,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 13,
+        "skillName": "佯攻",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 111,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 17,
+        "skillName": "防禦",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 112,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 56,
+        "skillName": "耐震",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 113,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 6,
+        "skillName": "火耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 114,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 2,
+        "skillName": "龍耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 88,
+        "skillName": "利刃",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 115,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 116,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 99,
+        "skillName": "睡眠屬性強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 117,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 55,
+        "skillName": "逆襲",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 2,
+        "skillName": "龍耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 118,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 93,
+        "skillName": "散彈・擴散箭強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 119,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 54,
+        "skillName": "泡沫之舞",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 85,
+        "skillName": "弱點特效",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 121,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 40,
+        "skillName": "體力回復量UP",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 122,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 43,
+        "skillName": "飛簷走壁",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 123,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 81,
+        "skillName": "無傷",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 124,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 20,
+        "skillName": "雷屬性攻撃強化",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 125,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 13,
+        "skillName": "佯攻",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 126,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 2,
+        "skillName": "龍耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 127,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 2,
+        "skillName": "龍耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 128,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 129,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 80,
+        "skillName": "挑戰者",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 130,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 3,
+        "skillName": "冰耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 131,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 20,
+        "skillName": "雷屬性攻撃強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 3,
+        "skillName": "冰耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 132,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 18,
+        "skillName": "龍屬性攻撃強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 133,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 9,
+        "skillName": "睡眠耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 134,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 135,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 11,
+        "skillName": "植生學",
+        "skillLevel": 4
+      },
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 136,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 83,
+        "skillName": "死裡逃生",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 137,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 46,
+        "skillName": "屬性異常狀態的耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 138,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 21,
+        "skillName": "水屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 139,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 7,
+        "skillName": "毒耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 88,
+        "skillName": "利刃",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 2,
+        "skillName": "龍耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 141,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 101,
+        "skillName": "爆破屬性強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 142,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 25,
+        "skillName": "毒屬性強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 143,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 82,
+        "skillName": "怨恨",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 144,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 26,
+        "skillName": "吹笛名人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 145,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 3,
+        "skillName": "冰耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 146,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 18,
+        "skillName": "龍屬性攻撃強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 54,
+        "skillName": "泡沫之舞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 147,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 148,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 149,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 6,
+        "skillName": "火耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 20,
+        "skillName": "雷屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 150,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 4,
+        "skillName": "雷耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 151,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 100,
+        "skillName": "麻痺屬性強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 152,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 153,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 20,
+        "skillName": "雷屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 154,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 155,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 12,
+        "skillName": "地質學",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 8,
+        "skillName": "麻痺耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 156,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 157,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 45,
+        "skillName": "快吃",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 158,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 7,
+        "skillName": "毒耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 159,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 63,
+        "skillName": "耐力急速回復",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 160,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 2,
+        "skillName": "龍耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 161,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 7,
+        "skillName": "毒耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 162,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 17,
+        "skillName": "防禦",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 163,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 30,
+        "skillName": "風壓耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 164,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 5,
+        "skillName": "水耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 165,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 6,
+        "skillName": "火耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 27,
+        "skillName": "奪取耐力",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 166,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 45,
+        "skillName": "快吃",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 167,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 47,
+        "skillName": "破壞王",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 23,
+        "skillName": "炸彈客",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 168,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 26,
+        "skillName": "吹笛名人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 89,
+        "skillName": "彈藥節約",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 169,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 170,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 45,
+        "skillName": "快吃",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 171,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 172,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 17,
+        "skillName": "防禦",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 55,
+        "skillName": "逆襲",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 173,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 44,
+        "skillName": "精靈加護",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 174,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 81,
+        "skillName": "無傷",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 175,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 43,
+        "skillName": "飛簷走壁",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 83,
+        "skillName": "死裡逃生",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 176,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 23,
+        "skillName": "炸彈客",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 177,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 40,
+        "skillName": "體力回復量UP",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 81,
+        "skillName": "無傷",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 178,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 179,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 52,
+        "skillName": "迴避距離UP",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 180,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 47,
+        "skillName": "破壞王",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 181,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 60,
+        "skillName": "攻擊",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 182,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 183,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 20,
+        "skillName": "雷屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 184,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 17,
+        "skillName": "防禦",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 185,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 41,
+        "skillName": "道具使用強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 21,
+        "skillName": "水屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 186,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 54,
+        "skillName": "泡沫之舞",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 187,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 88,
+        "skillName": "利刃",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 188,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 56,
+        "skillName": "耐震",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 189,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 22,
+        "skillName": "火屬性攻撃強化",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 43,
+        "skillName": "飛簷走壁",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 190,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 2,
+        "skillName": "龍耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 191,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 101,
+        "skillName": "爆破屬性強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 44,
+        "skillName": "精靈加護",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 192,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 193,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 194,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 5,
+        "skillName": "水耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 195,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 100,
+        "skillName": "麻痺屬性強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 196,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 54,
+        "skillName": "泡沫之舞",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 197,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 22,
+        "skillName": "火屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 198,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 199,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 21,
+        "skillName": "水屬性攻撃強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 200,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 9,
+        "skillName": "睡眠耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 201,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 8,
+        "skillName": "麻痺耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 202,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 40,
+        "skillName": "體力回復量UP",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 1,
+        "skillName": "飛身躍入",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 203,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 36,
+        "skillName": "滿足感",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 204,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 205,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 55,
+        "skillName": "逆襲",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 206,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 207,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 6,
+        "skillName": "火耐性",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 89,
+        "skillName": "彈藥節約",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 208,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 12,
+        "skillName": "地質學",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 209,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 98,
+        "skillName": "鬼火纏身",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 210,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 211,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 88,
+        "skillName": "利刃",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 212,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 8,
+        "skillName": "麻痺耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 213,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 46,
+        "skillName": "屬性異常狀態的耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 17,
+        "skillName": "防禦",
+        "skillLevel": 3
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 214,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 215,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 11,
+        "skillName": "植生學",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 40,
+        "skillName": "體力回復量UP",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 216,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 217,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 91,
+        "skillName": "通常彈・連射箭強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 218,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 3,
+        "skillName": "冰耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 42,
+        "skillName": "翔蟲能手",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 219,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 101,
+        "skillName": "爆破屬性強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 220,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 55,
+        "skillName": "逆襲",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 221,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 41,
+        "skillName": "道具使用強化",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 222,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 22,
+        "skillName": "火屬性攻撃強化",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 57,
+        "skillName": "鈍器能手",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 223,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 224,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 65,
+        "skillName": "防禦強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 225,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 86,
+        "skillName": "力量解放",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 84,
+        "skillName": "超會心",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 226,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 17,
+        "skillName": "防禦",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 227,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 228,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 18,
+        "skillName": "龍屬性攻撃強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 77,
+        "skillName": "最愛菇類",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 229,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 26,
+        "skillName": "吹笛名人",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 7,
+        "skillName": "毒耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 13,
+        "skillName": "佯攻",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      3,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 231,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 40,
+        "skillName": "體力回復量UP",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 30,
+        "skillName": "風壓耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 232,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 23,
+        "skillName": "炸彈客",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 15,
+        "skillName": "飢餓耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 233,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 4,
+        "skillName": "雷耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 41,
+        "skillName": "道具使用強化",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 234,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 11,
+        "skillName": "植生學",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 235,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 23,
+        "skillName": "炸彈客",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 236,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 23,
+        "skillName": "炸彈客",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 237,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 51,
+        "skillName": "迴避性能",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 82,
+        "skillName": "怨恨",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 238,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 13,
+        "skillName": "佯攻",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 239,
+    "name": "R3-烈風護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 240,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 35,
+        "skillName": "後座力減輕",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 241,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 41,
+        "skillName": "道具使用強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 242,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 31,
+        "skillName": "減輕膽怯",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 243,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 3,
+        "skillName": "冰耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 53,
+        "skillName": "拔刀術【力】",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 244,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 14,
+        "skillName": "泥雪耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 5,
+        "skillName": "水耐性",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 245,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 48,
+        "skillName": "廣域化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 86,
+        "skillName": "力量解放",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 246,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 11,
+        "skillName": "植生學",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 21,
+        "skillName": "水屬性攻撃強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 247,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 14,
+        "skillName": "泥雪耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 75,
+        "skillName": "耳塞",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 248,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 33,
+        "skillName": "昏厥耐性",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 25,
+        "skillName": "毒屬性強化",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 249,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "id": 250,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 56,
+        "skillName": "耐震",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 251,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 73,
+        "skillName": "會心擊【屬性】",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 46,
+        "skillName": "屬性異常狀態的耐性",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 252,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 88,
+        "skillName": "利刃",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 81,
+        "skillName": "無傷",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 253,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 36,
+        "skillName": "滿足感",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 254,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 58,
+        "skillName": "高速變形",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 56,
+        "skillName": "耐震",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 255,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 37,
+        "skillName": "不屈",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 256,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 21,
+        "skillName": "水屬性攻撃強化",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 257,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 28,
+        "skillName": "回復速度",
+        "skillLevel": 3
+      },
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 258,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 88,
+        "skillName": "利刃",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 24,
+        "skillName": "滑走強化",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 259,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 38,
+        "skillName": "騎乘名人",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 50,
+        "skillName": "收刀術",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 260,
+    "name": "R5-山嵐護石",
+    "skills": [
+      {
+        "skillId": 4,
+        "skillName": "雷耐性",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 88,
+        "skillName": "利刃",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 261,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 39,
+        "skillName": "體術",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 32,
+        "skillName": "抑制偏移",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 262,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 89,
+        "skillName": "彈藥節約",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 0,
+        "skillName": "無",
+        "skillLevel": 0
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 263,
+    "name": "R7-神嵐護石",
+    "skills": [
+      {
+        "skillId": 19,
+        "skillName": "冰屬性攻撃強化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 44,
+        "skillName": "精靈加護",
+        "skillLevel": 2
+      }
+    ],
+    "slots": [
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 264,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 29,
+        "skillName": "砥石使用高速化",
+        "skillLevel": 1
+      },
+      {
+        "skillId": 16,
+        "skillName": "剝取鐵人",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 265,
+    "name": "R6-天雷護石",
+    "skills": [
+      {
+        "skillId": 34,
+        "skillName": "裝填速度",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 49,
+        "skillName": "KO術",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": 266,
+    "name": "R4-鬼雨護石",
+    "skills": [
+      {
+        "skillId": 40,
+        "skillName": "體力回復量UP",
+        "skillLevel": 2
+      },
+      {
+        "skillId": 23,
+        "skillName": "炸彈客",
+        "skillLevel": 1
+      }
+    ],
+    "slots": [
+      1,
+      0,
+      0
+    ]
+  }
+]
