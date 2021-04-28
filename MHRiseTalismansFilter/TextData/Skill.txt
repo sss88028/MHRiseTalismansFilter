@@ -798,8 +798,8 @@
 			},
 		] 
 	},
-	
     {  
+		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
 		[
@@ -809,6 +809,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -818,6 +819,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
 		[
@@ -827,6 +829,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -845,6 +848,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -854,6 +858,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
 		[
@@ -872,6 +877,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -881,6 +887,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -890,6 +897,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -899,6 +907,7 @@
 		] 
 	},
     {  
+		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -908,6 +917,7 @@
 		] 
 	},
     {  
+		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -926,6 +936,7 @@
 		] 
 	},
     {  
+		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -953,6 +964,7 @@
 		] 
 	},
     {  
+		"size": 3, 
 		"maxlevel" : 1,
 		"name": 
 		[
@@ -962,6 +974,7 @@
 		] 
 	},
     {  
+		"size": 3, 
 		"maxlevel" : 4,
 		"name": 
 		[
@@ -971,6 +984,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -980,6 +994,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
