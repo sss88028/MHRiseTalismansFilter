@@ -839,6 +839,7 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -868,6 +869,7 @@
 		] 
 	},
     {  
+		"size": 3, 
 		"maxlevel" : 5,
 		"name": 
 		[
@@ -927,6 +929,7 @@
 		] 
 	},
     {  
+		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -946,6 +949,7 @@
 		] 
 	},
     {  
+		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
 		[
@@ -1004,11 +1008,22 @@
 		] 
 	},
     {  
+		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
 		[
 			{
 				"zh-TW" : "爆破屬性強化"
+			},
+		] 
+	},
+    {  
+		"size": 2, 
+		"maxlevel" : 3,
+		"name": 
+		[
+			{
+				"zh-TW" : "達人藝"
 			},
 		] 
 	},
