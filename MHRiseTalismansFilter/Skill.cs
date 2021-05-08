@@ -12,8 +12,11 @@ namespace MHRiseTalismansFilter
 	{
 		#region public-field
 		public static Dictionary<int, Skill> SkillDict = new Dictionary<int, Skill>();
+		public static Dictionary<int, Skill> NewSkillDict = new Dictionary<int, Skill>();
 
 		public readonly int Id;
+		public readonly int? NewId;
+
 		public readonly int? Size;
 		public readonly int MaxLevel;
 		#endregion public-field
@@ -51,11 +54,20 @@ namespace MHRiseTalismansFilter
 		{
 			var newSkill = new Skill(jObj);
 			SkillDict.Add(newSkill.Id, newSkill);
+			if (newSkill.NewId.HasValue)
+			{
+				NewSkillDict.Add(newSkill.NewId.Value, newSkill);
+			}
 		}
 
 		public Skill(JObject jObj) 
 		{
 			Id = _serialId++;
+			
+			if (jObj.TryGetValue("skillId", out var skillId))
+			{
+				NewId = skillId.Value<int>();
+			}
 
 			if (jObj.TryGetValue("size", out var sizeValue))
 			{

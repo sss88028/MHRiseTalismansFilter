@@ -1,5 +1,6 @@
 [ 
     { 
+		"skillId" : 0,
 		"maxlevel" : 0,
 		"name": 
 		[
@@ -9,6 +10,7 @@
 		] 
 	},
     { 
+		"skillId" : 1,
 		"size": 1, 
 		"maxlevel" : 1,
 		"name": 
@@ -19,6 +21,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 6,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -29,6 +32,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 4,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -39,6 +43,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 5,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -49,6 +54,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 3,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -59,6 +65,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 2,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -69,6 +76,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 7,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -79,6 +87,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 8,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -89,6 +98,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 9,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -99,6 +109,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 10,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -109,6 +120,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 11,
 		"size": 1, 
 		"maxlevel" : 4,
 		"name": 
@@ -119,6 +131,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 12,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -129,6 +142,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 13,
 		"size": 1, 
 		"maxlevel" : 1,
 		"name": 
@@ -139,6 +153,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 14,
 		"size": 1, 
 		"maxlevel" : 2,
 		"name": 
@@ -149,6 +164,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 15,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -159,6 +175,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 16,
 		"size": 1, 
 		"maxlevel" : 1,
 		"name": 
@@ -169,6 +186,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 17,
 		"size": 1, 
 		"maxlevel" : 7,
 		"name": 
@@ -179,6 +197,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 22,
 		"size": 1, 
 		"maxlevel" : 6,
 		"name": 
@@ -189,6 +208,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 20,
 		"size": 1, 
 		"maxlevel" : 6,
 		"name": 
@@ -199,6 +219,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 21,
 		"size": 1, 
 		"maxlevel" : 6,
 		"name": 
@@ -209,6 +230,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 19,
 		"size": 1, 
 		"maxlevel" : 6,
 		"name": 
@@ -219,6 +241,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 18,
 		"size": 1, 
 		"maxlevel" : 6,
 		"name": 
@@ -229,6 +252,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 23,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -239,6 +263,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 24,
 		"size": 1, 
 		"maxlevel" : 1,
 		"name": 
@@ -249,6 +274,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 25,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -259,6 +285,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 26,
 		"size": 1, 
 		"maxlevel" : 1,
 		"name": 
@@ -269,6 +296,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 27,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -279,6 +307,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 28,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -289,6 +318,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 29,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -299,6 +329,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 30,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -309,6 +340,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 31,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -319,6 +351,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 32,
 		"size": 1, 
 		"maxlevel" : 2,
 		"name": 
@@ -329,6 +362,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 33,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -339,6 +373,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 34,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -349,6 +384,7 @@
 		] 
 	},  
     { 
+		"skillId" : 35,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -359,6 +395,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 36,
 		"size": 1, 
 		"maxlevel" : 3,
 		"name": 
@@ -369,6 +406,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 37,
 		"size": 2, 
 		"maxlevel" : 1,
 		"name": 
@@ -379,6 +417,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 38,
 		"size": 2, 
 		"maxlevel" : 1,
 		"name": 
@@ -389,6 +428,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 39,
 		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
@@ -399,6 +439,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 40,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -409,6 +450,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 41,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -419,6 +461,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 42,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -429,6 +472,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 43,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -439,6 +483,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 44,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -449,6 +494,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 45,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -459,6 +505,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 46,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -469,6 +516,7 @@
 		] 
 	},  
     { 
+		"skillId" : 47,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -479,6 +527,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 48,
 		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
@@ -489,6 +538,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 49,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -499,6 +549,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 50,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -509,6 +560,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 51,
 		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
@@ -519,6 +571,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 52,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -529,6 +582,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 53,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -539,6 +593,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 54,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -549,6 +604,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 55,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -559,6 +615,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 56,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -569,6 +626,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 57,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -579,6 +637,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 58,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -589,6 +648,7 @@
 		] 
 	},  
     { 
+		"skillId" : 59,
 		"size": 2, 
 		"maxlevel" : 7,
 		"name": 
@@ -599,6 +659,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 60,
 		"size": 2, 
 		"maxlevel" : 7,
 		"name": 
@@ -609,6 +670,7 @@
 		] 
 	}, 
     { 
+		"skillId" : 61,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -619,6 +681,7 @@
 		] 
 	},  
     { 
+		"skillId" : 62,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -629,6 +692,7 @@
 		] 
 	},  
     { 
+		"skillId" : 63,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -639,6 +703,7 @@
 		] 
 	},  
     { 
+		"skillId" : 64,
 		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
@@ -649,6 +714,7 @@
 		] 
 	},   
     { 
+		"skillId" : 65,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -660,6 +726,7 @@
 	},   
     { 
 		"size": 2, 
+		"skillId" : 66,
 		"maxlevel" : 2,
 		"name": 
 		[
@@ -669,6 +736,7 @@
 		] 
 	},  
     { 
+		"skillId" : 67,
 		"size": 2, 
 		"maxlevel" : 2,
 		"name": 
@@ -679,6 +747,7 @@
 		] 
 	},   
     { 
+		"skillId" : 68,
 		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
@@ -689,6 +758,7 @@
 		] 
 	},  
     { 
+		"skillId" : 69,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -699,6 +769,7 @@
 		] 
 	},   
     { 
+		"skillId" : 70,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -709,6 +780,7 @@
 		] 
 	},
     { 
+		"skillId" : 71,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -719,6 +791,7 @@
 		] 
 	},
     { 
+		"skillId" : 72,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -729,6 +802,7 @@
 		] 
 	},
     { 
+		"skillId" : 73,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -739,6 +813,7 @@
 		] 
 	},
     { 
+		"skillId" : 74,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -749,6 +824,7 @@
 		] 
 	},
     { 
+		"skillId" : 90,
 		"size": 3, 
 		"maxlevel" : 5,
 		"name": 
@@ -759,6 +835,7 @@
 		] 
 	},
     { 
+		"skillId" : 91,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -769,6 +846,7 @@
 		] 
 	},
     { 
+		"skillId" : 92,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -779,6 +857,7 @@
 		] 
 	},
     { 
+		"skillId" : 93,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -789,6 +868,7 @@
 		] 
 	},
     { 
+		"skillId" : 94,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -799,6 +879,7 @@
 		] 
 	},
     {  
+		"skillId" : 81,
 		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
@@ -809,6 +890,7 @@
 		] 
 	},
     {  
+		"skillId" : 75,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -819,6 +901,7 @@
 		] 
 	},
     {  
+		"skillId" : 76,
 		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
@@ -829,6 +912,7 @@
 		] 
 	},
     {  
+		"skillId" : 77,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -839,6 +923,7 @@
 		] 
 	},
     {  
+		"skillId" : 78,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -849,6 +934,7 @@
 		] 
 	},
     {  
+		"skillId" : 79,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -859,6 +945,7 @@
 		] 
 	},
     {  
+		"skillId" : 80,
 		"size": 2, 
 		"maxlevel" : 5,
 		"name": 
@@ -869,6 +956,7 @@
 		] 
 	},
     {  
+		"skillId" : 95,
 		"size": 3, 
 		"maxlevel" : 5,
 		"name": 
@@ -879,6 +967,7 @@
 		] 
 	},
     {  
+		"skillId" : 87,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -889,6 +978,7 @@
 		] 
 	},
     {  
+		"skillId" : 88,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -899,6 +989,7 @@
 		] 
 	},
     {  
+		"skillId" : 89,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -909,6 +1000,7 @@
 		] 
 	},
     {  
+		"skillId" : 96,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -919,6 +1011,7 @@
 		] 
 	},
     {  
+		"skillId" : 97,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -929,6 +1022,7 @@
 		] 
 	},
     {  
+		"skillId" : 98,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -939,6 +1033,7 @@
 		] 
 	},
     {  
+		"skillId" : 99,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -949,6 +1044,7 @@
 		] 
 	},
     {  
+		"skillId" : 100,
 		"size": 3, 
 		"maxlevel" : 3,
 		"name": 
@@ -959,6 +1055,7 @@
 		] 
 	},
     {  
+		"skillId" : 86,
 		"maxlevel" : 5,
 		"name": 
 		[
@@ -968,6 +1065,7 @@
 		] 
 	},
     {  
+		"skillId" : 101,
 		"size": 3, 
 		"maxlevel" : 1,
 		"name": 
@@ -978,6 +1076,7 @@
 		] 
 	},
     {  
+		"skillId" : 102,
 		"size": 3, 
 		"maxlevel" : 4,
 		"name": 
@@ -988,6 +1087,7 @@
 		] 
 	},
     {  
+		"skillId" : 82,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -998,6 +1098,7 @@
 		] 
 	},
     {  
+		"skillId" : 83,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -1008,6 +1109,7 @@
 		] 
 	},
     {  
+		"skillId" : 84,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 
@@ -1018,6 +1120,7 @@
 		] 
 	},
     {  
+		"skillId" : 85,
 		"size": 2, 
 		"maxlevel" : 3,
 		"name": 

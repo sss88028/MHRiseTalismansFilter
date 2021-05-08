@@ -21,6 +21,7 @@ namespace MHRiseTalismansFilter
 		#region private-field
 		private DecorationListViewItem _item;
 		private Dictionary<int, int> _skillDict = new Dictionary<int, int>();
+		private Dictionary<int, int> _newSkillDict = new Dictionary<int, int>();
 		private int[] _slots = new int[3];
 
 		private static Dictionary<int, int> _skillCompareDict = new Dictionary<int, int>();
@@ -94,11 +95,23 @@ namespace MHRiseTalismansFilter
 				foreach (var skillToken in skillArray)
 				{
 					var skill = (JObject)skillToken;
-					var id = skill.Value<int>("skillId");
+					var id = default(int);
 					var level = skill.Value<int>("skillLevel");
-					decoration._skillDict.Add(id, level);
+					if (skill.TryGetValue("skillId_New", out var newId))
+					{
+						id = newId.Value<int>();
+						decoration._newSkillDict.Add(id, level);
+						decoration._skillDict.Add(Skill.NewSkillDict[id].Id, level);
+
+					}
+					else if (skill.TryGetValue("skillId", out var oldId))
+					{
+						id = oldId.Value<int>();
+						decoration._skillDict.Add(id, level);
+					}
 				}
 			}
+
 			if (jObj.TryGetValue("slots", out var slotsToken))
 			{
 				var slotArray = (JArray)slotsToken;
@@ -143,13 +156,25 @@ namespace MHRiseTalismansFilter
 
 			var slotStr = $"{_slots[0]}-{_slots[1]}-{_slots[2]}";
 			Item.SubItems.Add($"{slotStr}");
-			Item.SubItems.Add($"{ParentId}");
+			if (ParentId != -1)
+			{
+				Item.SubItems.Add($"{ParentId}");
+			}
+			else
+			{
+				Item.SubItems.Add($"");
+			}
 			Item.SubItems.Add("Remove");
 		}
 
 		public void AddSkill(int skillId, int skillLevel)
 		{
 			_skillDict[skillId] = skillLevel;
+		}
+
+		public void AddNewSkill(int newSkillId, int skillLevel)
+		{
+			_newSkillDict[newSkillId] = skillLevel;
 		}
 
 		public void SetSlot(int[] array) 
@@ -299,6 +324,8 @@ namespace MHRiseTalismansFilter
 				jsonTextWriter.WriteStartObject();
 				jsonTextWriter.WritePropertyName("skillId");
 				jsonTextWriter.WriteValue(skill.Key);
+				jsonTextWriter.WritePropertyName("skillId_New");
+				jsonTextWriter.WriteValue(Skill.SkillDict[skill.Key].NewId);
 				jsonTextWriter.WritePropertyName("skillName");
 				jsonTextWriter.WriteValue(Skill.SkillDict[skill.Key].Name);
 				jsonTextWriter.WritePropertyName("skillLevel");

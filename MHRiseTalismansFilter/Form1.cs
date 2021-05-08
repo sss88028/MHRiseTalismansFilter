@@ -218,6 +218,10 @@ namespace MHRiseTalismansFilter
 			var skillId = ((KeyValuePair<int, Skill>)skillComboBox.SelectedItem).Key;
 			var levelId = (int)skillLevelComboBox.SelectedItem;
 			decoration.AddSkill(skillId, levelId);
+			if (Skill.SkillDict[skillId].NewId.HasValue)
+			{
+				decoration.AddNewSkill(Skill.SkillDict[skillId].NewId.Value, levelId);
+			}
 			decoration.SetSlot(new int[] 
 			{
 				(int)_slot1.SelectedItem,
