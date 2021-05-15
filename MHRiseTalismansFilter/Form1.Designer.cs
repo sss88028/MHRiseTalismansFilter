@@ -45,6 +45,7 @@ namespace MHRiseTalismansFilter
 			this._saveButton = new System.Windows.Forms.Button();
 			this._loadButton = new System.Windows.Forms.Button();
 			this.label2 = new System.Windows.Forms.Label();
+			this.LoadSheet = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// _skill_1_ComboBox
@@ -204,11 +205,22 @@ namespace MHRiseTalismansFilter
 			this.label2.TabIndex = 16;
 			this.label2.Text = "label2";
 			// 
+			// LoadSheet
+			// 
+			this.LoadSheet.Location = new System.Drawing.Point(1024, 161);
+			this.LoadSheet.Name = "LoadSheet";
+			this.LoadSheet.Size = new System.Drawing.Size(75, 34);
+			this.LoadSheet.TabIndex = 17;
+			this.LoadSheet.Text = "Load Sheet";
+			this.LoadSheet.UseVisualStyleBackColor = true;
+			this.LoadSheet.Click += new System.EventHandler(this.LoadSheet_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1111, 623);
+			this.Controls.Add(this.LoadSheet);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this._loadButton);
 			this.Controls.Add(this._saveButton);
@@ -250,6 +262,7 @@ namespace MHRiseTalismansFilter
 		private System.Windows.Forms.Button _saveButton;
 		private System.Windows.Forms.Button _loadButton;
 		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Button LoadSheet;
 	}
 }
 

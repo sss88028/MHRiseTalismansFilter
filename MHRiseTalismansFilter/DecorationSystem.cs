@@ -21,6 +21,14 @@ namespace MHRiseTalismansFilter
 		private List<Decoration> _decorations = new List<Decoration>();
 		#endregion private-field
 
+		public IEnumerable<Decoration> List 
+		{
+			get 
+			{
+				return _decorations;
+			}
+		}
+
 		#region public-method
 		public void AddDecoration(Decoration decoration) 
 		{

@@ -38,35 +38,6 @@ namespace MHRiseTalismansFilter
 				if (_item == null) 
 				{
 					_item = new DecorationListViewItem(this);
-					//_item.Text = Id.ToString();
-					//_item.SubItems.Add(Name);
-					//var count = 2;
-					//foreach (var pair in _skillDict)
-					//{
-					//	if (Skill.SkillDict.TryGetValue(pair.Key, out var skill))
-					//	{
-					//		_item.SubItems.Add($"{skill.Name}");
-					//	}
-					//	_item.SubItems.Add($"{pair.Value}");
-					//	count--;
-					//}
-
-					//for (var i = 0; i < count; i++)
-					//{
-					//	if (Skill.SkillDict.TryGetValue(0, out var skill))
-					//	{
-					//		_item.SubItems.Add($"{skill.Name}");
-					//	}
-					//	_item.SubItems.Add($"{0}");
-					//}
-
-
-					//var slotStr = string.Empty;
-
-					//slotStr = $"{_slots[0]}-{_slots[1]}-{_slots[2]}";
-					//_item.SubItems.Add($"{slotStr}");
-					//_item.SubItems.Add($"{ParentId}");
-					//_item.SubItems.Add("Remove");
 					Refresh();
 				}
 				return _item;

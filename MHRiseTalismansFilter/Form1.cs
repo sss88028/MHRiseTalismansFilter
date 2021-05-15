@@ -7,9 +7,11 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace MHRiseTalismansFilter
 {
@@ -344,7 +346,7 @@ namespace MHRiseTalismansFilter
 			item.RemoveItem();
 		}
 		#endregion UIEvent-method
-		#endregion private-field
 
+		#endregion private-field
 	}
 }
