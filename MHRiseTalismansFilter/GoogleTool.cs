@@ -74,7 +74,7 @@ namespace MHRiseTalismansFilter
                     Console.WriteLine("{0}, {1}", index, d.ParentId);
 #endif
                     valueRange.Range = sRange;
-                    valueRange.MajorDimension = "COLUMNS";//ROWS 或 COLUMNS
+                    valueRange.MajorDimension = "ROWS";//ROWS 或 COLUMNS
                     oblist.Add(d.ParentId);
                 }
                 else
